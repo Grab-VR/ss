@@ -1,8 +1,8 @@
 {
-    "currency_100": {
-        "title": "100 Coins",
-        "type": "currency_100",
-        "file": "cosmetics/currency/currency_100",
+    "currency_1": {
+        "title": "1 Coin",
+        "type": "currency_1",
+        "file": "cosmetics/currency/currency_1",
         "materials_v2": [
             {
                 "type": "default",
