@@ -1,1 +1,31 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check Version Parameter</title>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Function to check if 'version' parameter is present and correct
+    function checkVersionParameter() {
+      const params = new URLSearchParams(window.location.search);
+      const version = params.get('version');
+
+      // Check if the version parameter is exactly '1'
+      if (version === '1') {
+        document.getElementById('message').innerText = 'The correct version parameter is present!';
+      } else {
+        document.getElementById('message').innerText = 'Required version parameter is missing!';
+      }
+    }
+
+    // Call the function on page load
+    checkVersionParameter();
+  });
+</script>
+</head>
+<body>
+<h1>Version Parameter Check</h1>
+<p id="message"></p> <!-- Message will be displayed here -->
+</body>
+</html>
