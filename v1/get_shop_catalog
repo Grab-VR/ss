@@ -2,6 +2,7 @@
     {
         "title": "GRAB Coins",
         "items": [
+            "currency_1"
             "currency_100",
             "currency_500",
             "currency_1000",
