@@ -9,8 +9,8 @@
     "active_customizations": {
         "player_color_secondary": {
             "color": [
-                0,
-                0,
+                0.8333333134651184,
+                0.5000001192092896,
                 0
             ]
         },
@@ -19,14 +19,14 @@
             "body/neck": "body_neck_mystical_power_source_player_colors_2024",
             "checkpoint": "checkpoint_the_mountain",
             "grapple/hook": "grapple_hook_spear_angel",
-            "head": "head_glasses_glasses_nerd",
+            "head": "head_space_basic",
             "head/hat": "head_hat_sunhat_basic_moderator_player_colors"
         },
         "player_color_primary": {
             "color": [
                 0,
                 0,
-                0
+                1
             ]
         }
     }
