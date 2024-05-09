@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function() {
+            // Extract path from the current URL
+            var path = window.location.pathname;
+
+            // Base URL for redirection
+            var baseUrl = "https://api.slin.dev";
+
+            // Redirect to the new URL
+            window.location.href = baseUrl + path;
+        };
+    </script>
+</head>
+<body>
+    <p>Redirecting you to the new download link...</p>
+</body>
+</html>
