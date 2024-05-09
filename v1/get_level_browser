@@ -1,0 +1,372 @@
+{
+    "title": "Level Browser",
+    "sections": [
+        {
+            "title": "Getting Started",
+            "list_key": "curated_getting_started"
+        },
+        {
+            "title": "Best of GRAB",
+            "sections": [
+                {
+                    "title": "Animations Spotlight",
+                    "title_short": "Animations",
+                    "sections": [
+                        {
+                            "title": "Mini Games",
+                            "list_key": "curated_animations_minigame"
+                        },
+                        {
+                            "title": "Rides",
+                            "list_key": "curated_animations_rides"
+                        },
+                        {
+                            "title": "Parkour",
+                            "list_key": "curated_animations_parkour"
+                        },
+                        {
+                            "title": "Boss Fights",
+                            "list_key": "curated_animations_bossfight"
+                        },
+                        {
+                            "title": "Showcase",
+                            "list_key": "curated_animations_showcase"
+                        }
+                    ]
+                },
+                {
+                    "title": "Awesome Series",
+                    "sections": [
+                        {
+                            "title": "Factory Rebirth (easy)",
+                            "title_short": "Factory Rebirth",
+                            "list_key": "curated_factory_rebirth"
+                        },
+                        {
+                            "title": "GRAB - The Adventure (easy)",
+                            "title_short": "GRAB Adventure",
+                            "list_key": "curated_grab_adventure_1"
+                        },
+                        {
+                            "title": "Fallout: Vault GRAB",
+                            "title_short": "Fallout",
+                            "sections": [
+                                {
+                                    "title": "Open World",
+                                    "list_key": "curated_fallout_openworld"
+                                },
+                                {
+                                    "title": "Locations",
+                                    "list_key": "curated_fallout_locations"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Spelunk (medium)",
+                            "title_short": "Spelunk",
+                            "list_key": "curated_spelunk"
+                        },
+                        {
+                            "title": "Break In (medium)",
+                            "title_short": "Break In",
+                            "list_key": "curated_sadpillows_break_in"
+                        },
+                        {
+                            "title": "POP (medium)",
+                            "title_short": "POP",
+                            "list_key": "curated_pop"
+                        },
+                        {
+                            "title": "Airborne (medium)",
+                            "title_short": "Airborne",
+                            "list_key": "curated_airborne"
+                        },
+                        {
+                            "title": "Evade Genesis (medium)",
+                            "title_short": "Evade Genesis",
+                            "list_key": "curated_jeffbobdude_evade_genesis"
+                        },
+                        {
+                            "title": "Afterlife (medium)",
+                            "title_short": "Afterlife",
+                            "list_key": "curated_afterlife"
+                        },
+                        {
+                            "title": "Yoohoos Difficulty Charts (hard)",
+                            "title_short": "Difficulty Charts",
+                            "list_key": "curated_yoohoo_difficulty_charts"
+                        },
+                        {
+                            "title": "Smorgasbord (hard)",
+                            "title_short": "Smorgasbord",
+                            "list_key": "curated_smorgasbord"
+                        },
+                        {
+                            "title": "Peaks (hard)",
+                            "title_short": "Peaks",
+                            "list_key": "curated_peaks"
+                        },
+                        {
+                            "title": "Famguy Industries (hard)",
+                            "title_short": "Famguy Industries",
+                            "list_key": "curated_famguy_industries"
+                        },
+                        {
+                            "title": "Skills Only (hard)",
+                            "title_short": "Skills Only",
+                            "list_key": "curated_skills_only"
+                        }
+                    ]
+                },
+                {
+                    "title": "One of a kind",
+                    "title_short": "One of a kind",
+                    "list_key": "curated_one_of_a_kind"
+                },
+                {
+                    "type": "space",
+                    "size": 60
+                },
+                {
+                    "title": "Developer Picks",
+                    "list_key": "curated_dev_picks"
+                },
+                {
+                    "title": "Showcase Maps",
+                    "list_key": "curated_showcase"
+                },
+                {
+                    "title": "A Challenge (very hard)",
+                    "title_short": "A Challenge",
+                    "list_key": "curated_challenge"
+                },
+                {
+                    "type": "space",
+                    "size": 60
+                },
+                {
+                    "title": "Featured Creators",
+                    "sections": [
+                        {
+                            "title": "MedievalDuck",
+                            "list_key": "user:2bxznfs3tfog3d18517as"
+                        },
+                        {
+                            "title": "kookookrazy",
+                            "list_key": "user:2acbdwj2bo9r9zkt79p72"
+                        },
+                        {
+                            "title": "Convrist",
+                            "list_key": "user:29id5ta7mb54j28tz6wfe"
+                        },
+                        {
+                            "title": "dotindex",
+                            "list_key": "user:29sgp24f1uorbc6vq8d2k"
+                        },
+                        {
+                            "title": "BlackCat508",
+                            "list_key": "user:29t798uon2urbra1f8w2q"
+                        },
+                        {
+                            "title": "MiloJenSopha",
+                            "list_key": "user:2a4lsr3j8bypkewcx9s90"
+                        },
+                        {
+                            "title": "Trap11190",
+                            "list_key": "user:29rhk9gdy7iiza0k3tttk"
+                        },
+                        {
+                            "title": "Caziggy",
+                            "list_key": "user:29lmdv56fjch18bes1u2j"
+                        },
+                        {
+                            "title": "Mystery8281",
+                            "list_key": "user:29st9jdcbxxotp0t9d8en"
+                        },
+                        {
+                            "title": "AysonBoi",
+                            "list_key": "user:2c0vvrzpz3uv0mp3n30r5"
+                        },
+                        {
+                            "title": "MeanBeatle",
+                            "list_key": "user:2a0qn18imtwvlnkmb6k62"
+                        },
+                        {
+                            "title": "TLTT",
+                            "list_key": "user:29rbyudpcet6wdy3iidd4"
+                        },
+                        {
+                            "title": "wpbrotherly",
+                            "list_key": "user:2bckx8xvzyf3bplkkdcvk"
+                        },
+                        {
+                            "title": "coleaaron",
+                            "list_key": "user:2aqj12racvbkdg8ge3ns9"
+                        },
+                        {
+                            "title": "gage_rod",
+                            "list_key": "user:2aqk2f39o44nxz0yixbas"
+                        },
+                        {
+                            "title": "Rlfty.vr",
+                            "list_key": "user:2c265k7puq5nt7i4vqmyu"
+                        },
+                        {
+                            "title": "BernanaBread",
+                            "list_key": "user:2bs9a0kjj1uhssit33q3e"
+                        },
+                        {
+                            "title": "D_chuck.D",
+                            "list_key": "user:2a0vlvqwxxjj77ap7s89p"
+                        },
+                        {
+                            "title": "luhmao",
+                            "list_key": "user:29vhvl94jvlw4vp4b019y"
+                        },
+                        {
+                            "title": "Ima_Rainbow",
+                            "list_key": "user:29hvhqg39i8vs7yfx73do"
+                        },
+                        {
+                            "title": "JeffBobDude",
+                            "list_key": "user:29v9vd6n9z45d16mi2o2n"
+                        },
+                        {
+                            "title": "Auran_Simia",
+                            "list_key": "user:2a7dpr68r014rdkz6927a"
+                        },
+                        {
+                            "title": "aIwx",
+                            "list_key": "user:2ap0yu9y9g2lcvxbc5x3g"
+                        },
+                        {
+                            "title": "quellikit",
+                            "list_key": "user:29s2i1fciwou595ck5e0j"
+                        },
+                        {
+                            "title": "rockyraider",
+                            "list_key": "user:2bmbn2tcbm89x9wv2idh1"
+                        },
+                        {
+                            "title": "AFT_Daring",
+                            "list_key": "user:29rkswgx13q8mej7mxdg6"
+                        },
+                        {
+                            "title": "levi8020",
+                            "list_key": "user:29zwujsnjq6iu1jqa4keo"
+                        },
+                        {
+                            "title": "FROSTY_CROSS",
+                            "list_key": "user:29ffxg2ijqxyrgxyy2vjj"
+                        },
+                        {
+                            "title": "CursedPhantom",
+                            "list_key": "user:29ngj2xcdlinnuqz0vrw5"
+                        },
+                        {
+                            "title": "felixart",
+                            "list_key": "user:2a7kcrctb9fpib14lilnx"
+                        },
+                        {
+                            "title": "rougueRunner",
+                            "list_key": "user:2am015n3aa6sebl0p6923"
+                        },
+                        {
+                            "title": "CoblerB1",
+                            "list_key": "user:29srqtwaq08zzhp3kng3u"
+                        },
+                        {
+                            "title": "D2whiplash",
+                            "list_key": "user:29iz7lwjt8f9l20uvr28b"
+                        },
+                        {
+                            "title": "Shadowmaker99",
+                            "list_key": "user:29i3f522rkvzc4houzo8k"
+                        },
+                        {
+                            "title": "gman2giant",
+                            "list_key": "user:29z0xnmo2bj7t5r2xfed1"
+                        },
+                        {
+                            "title": "1235311PNUT",
+                            "list_key": "user:2bt1j9owykx3qrnr8ilbv"
+                        },
+                        {
+                            "title": "Levi__athan",
+                            "list_key": "user:2a7dx97v4xiepfpmj8gi4"
+                        },
+                        {
+                            "title": "ColVillian",
+                            "list_key": "user:2a7bbqyw83p77rulpvfjc"
+                        },
+                        {
+                            "title": "Vivid_VR",
+                            "list_key": "user:29vkm6bg32bc8t2wphvkl"
+                        },
+                        {
+                            "title": "22Joshi22",
+                            "list_key": "user:29r46v7djliny6t4rzvq7"
+                        },
+                        {
+                            "title": "CokeDee",
+                            "list_key": "user:29px3pmrktk2sms8qmvqb"
+                        },
+                        {
+                            "title": "RainbowMonke",
+                            "list_key": "user:2aecs0jaf5xivnzt738gn"
+                        },
+                        {
+                            "title": "boohoo77",
+                            "list_key": "user:2ak5u4cyuivrwrfb682hs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "space",
+            "size": 60
+        },
+        {
+            "title": "Verified Levels",
+            "title_short": "Verified",
+            "list_key": "ok_newest"
+        },
+        {
+            "title": "Community Levels",
+            "title_short": "Community",
+            "list_key": "newest"
+        },
+        {
+            "type": "space",
+            "size": 130
+        },
+        {
+            "title": "Your Levels",
+            "list_key": "builtin:user_levels",
+            "font_size": 50
+        },
+        {
+            "title": "Favorite Levels",
+            "list_key": "builtin:favorite_levels",
+            "font_size": 50
+        }
+    ],
+    "tags": [
+        "parkour",
+        "slide",
+        "grapple",
+        "climb",
+        "fling",
+        "fangame",
+        "showcase",
+        "puzzle",
+        "horror",
+        "story",
+        "minigame",
+        "innovative",
+        "boss",
+        "ride",
+        "chart"
+    ]
+}
