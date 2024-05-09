@@ -497,7 +497,7 @@
         "title": "1 Coin",
         "description": "Can be used to buy in-game items.",
         "productid_steam": 26,
-        "price_usd": N/A,
+        "price_usd": 0.00,
         "type": "consumable",
         "items": [
             "currency_1"
