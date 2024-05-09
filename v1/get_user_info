@@ -1,0 +1,33 @@
+{
+    "user_id": "2cmndb6aqd04eegbagxbo",
+    "user_name": "vestria",
+    "is_admin": true,
+    "is_moderator": true,
+    "is_verifier": true,
+    "is_creator": true,
+    "user_level_count": 0,
+    "active_customizations": {
+        "player_color_secondary": {
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "items": {
+            "head/glasses": "head_glasses_new_year_2024",
+            "body/neck": "body_neck_mystical_power_source_player_colors_2024",
+            "checkpoint": "checkpoint_the_mountain",
+            "grapple/hook": "grapple_hook_spear_angel",
+            "head": "head_space_basic",
+            "head/hat": "head_hat_sunhat_basic_moderator_player_colors"
+        },
+        "player_color_primary": {
+            "color": [
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
