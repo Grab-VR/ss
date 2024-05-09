@@ -9,9 +9,9 @@
     "active_customizations": {
         "player_color_secondary": {
             "color": [
-                0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ]
         },
         "items": {
@@ -24,9 +24,9 @@
         },
         "player_color_primary": {
             "color": [
-                0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ]
         }
     }
