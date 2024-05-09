@@ -1,0 +1,554 @@
+{
+    "pack_mystic_2024": {
+        "title": "Mystical Pack",
+        "description": "",
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "body_neck_mystical_power_source_2024",
+            "body_neck_mystical_power_source_player_colors_2024",
+            "grapple_hook_mystical_2024",
+            "checkpoint_mystical_obelisk_2024"
+        ],
+        "active": true,
+        "date_end": 1717192800
+    },
+    "pack_player_ebspark": {
+        "title": "EB Pack",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "head_sir_duckton"
+        ],
+        "active": true
+    },
+    "pack_pilot_2024": {
+        "title": "Pilot Pack",
+        "description": "",
+        "price_currency": 1500,
+        "type": "durable",
+        "items": [
+            "head_pilot_2024",
+            "grapple_hook_jet_2024",
+            "checkpoint_aircraft_carrier_2024"
+        ],
+        "active": true
+    },
+    "pack_easter_2024": {
+        "title": "Peeppoint",
+        "description": "Egg! Wait, what!?",
+        "price_currency": 500,
+        "type": "durable",
+        "items": [
+            "checkpoint_easter_2024"
+        ],
+        "active": true,
+        "date_end": 1712008800
+    },
+    "pack_wild_west_2024": {
+        "title": "Wild West Pack",
+        "description": "Fit in with the locals at the Saloon!",
+        "productid_steam": 26,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_wild_west_2024",
+            "grapple_hook_wild_west_2024",
+            "checkpoint_wild_west_2024"
+        ],
+        "active": true,
+        "date_end": 1711954800
+    },
+    "pack_steampunk_2024": {
+        "title": "Cogs of Affection",
+        "description": "Valentines day is upon us!",
+        "productid_steam": 25,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_steampunk_2024",
+            "grapple_hook_hammer_steampunk",
+            "checkpoint_steampunk_2024"
+        ],
+        "active": true,
+        "exclude": [
+            "pico"
+        ]
+    },
+    "pack_new_year_2024": {
+        "title": "2024",
+        "description": "Start into 2024 with style!",
+        "productid_steam": 24,
+        "price_currency": 1200,
+        "type": "durable",
+        "items": [
+            "head_hat_new_year_2024",
+            "head_glasses_new_year_2024",
+            "checkpoint_fireworks_new_year_2024",
+            "checkpoint_balloon_new_year_2024"
+        ],
+        "active": true,
+        "exclude": [
+            "pico"
+        ]
+    },
+    "pack_christmas_mini_2023": {
+        "title": "Christmas Bells (Free)",
+        "description": "Happy Holidays! Claim your free christmas bells!",
+        "productid_steam": 23,
+        "price_currency": 0,
+        "type": "durable",
+        "items": [
+            "body_neck_bells_christmas_2023"
+        ],
+        "active": true
+    },
+    "pack_christmas_2023": {
+        "title": "Holiday Pack 2023",
+        "description": "Presents? Yes! But we'll probably never know what's inside.",
+        "productid_steam": 22,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_antlers_2023",
+            "grapple_hook_gingerbread_2023",
+            "checkpoint_presents_2023"
+        ],
+        "active": true
+    },
+    "pack_noir_detective_2023": {
+        "title": "Noir Detective Pack",
+        "description": "Time to detect.",
+        "productid_steam": 21,
+        "price_currency": 1200,
+        "type": "durable",
+        "items": [
+            "head_hat_fedora_noir_detective",
+            "head_glasses_cigar_noir_detective",
+            "body_neck_bowtie_noir_detective",
+            "checkpoint_briefcase_noir_detective"
+        ],
+        "active": true,
+        "exclude": [
+            "pico"
+        ]
+    },
+    "pack_halloween_2023": {
+        "title": "Halloween 2023 Pack",
+        "description": "Spooky!",
+        "productid_steam": 20,
+        "price_currency": 1200,
+        "type": "durable",
+        "items": [
+            "head_hat_hatchet_halloween_2023",
+            "grapple_hook_scythe_halloween_2023",
+            "checkpoint_grave_halloween_2023"
+        ],
+        "active": true
+    },
+    "pack_contest_tutorial_2023": {
+        "title": "Tutorial Contest",
+        "description": "Thanks for participating!",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_contest_builder_tutorial"
+        ],
+        "active": true
+    },
+    "pack_special_mountain_1": {
+        "title": "The Mountain",
+        "description": "You did it!",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "checkpoint_the_mountain"
+        ],
+        "active": true
+    },
+    "pack_misc_1": {
+        "title": "Misc Pack",
+        "description": "Just some things without a specific theme.",
+        "productid_steam": 19,
+        "price_currency": 1200,
+        "type": "durable",
+        "items": [
+            "head_hat_baseballcap_propeller_redblue",
+            "grapple_hook_hotdog",
+            "checkpoint_chair_folding"
+        ],
+        "active": true
+    },
+    "pack_backtoschool_2023": {
+        "title": "Back to School Pack",
+        "description": "The holidays are over :(",
+        "productid_steam": 18,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_glasses_glasses_nerd",
+            "grapple_hook_pen_marker",
+            "checkpoint_backpack_school"
+        ],
+        "active": true
+    },
+    "pack_summer_2023": {
+        "title": "Summer 2023",
+        "description": "Summer Pack 2023!",
+        "productid_steam": 17,
+        "price_currency": 1200,
+        "type": "durable",
+        "items": [
+            "head_diver_oldschool",
+            "grapple_hook_kite_basic",
+            "checkpoint_scubatanks"
+        ],
+        "active": true
+    },
+    "pack_devilvsangel_1": {
+        "title": "Devil vs Angel Pack",
+        "description": "Which side are you on?",
+        "productid_steam": 16,
+        "price_currency": 1600,
+        "type": "durable",
+        "items": [
+            "head_hat_halo_angel_basic",
+            "head_hat_halo_angel_basic_detail",
+            "head_glasses_horns_devil_basic",
+            "grapple_hook_spear_angel",
+            "grapple_hook_trident_devil",
+            "checkpoint_gate_angel",
+            "checkpoint_pentagram_devil"
+        ],
+        "active": true
+    },
+    "pack_animals_1": {
+        "title": "Animal Pack",
+        "description": "Be nice to them!",
+        "productid_steam": 15,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_catears_piercing",
+            "grapple_hook_fish_rizzler",
+            "checkpoint_fox_inu"
+        ],
+        "active": true
+    },
+    "pack_easter_2023": {
+        "title": "Easter Pack 2023",
+        "description": "Happy Easter!",
+        "productid_steam": 14,
+        "price_currency": 600,
+        "type": "durable",
+        "items": [
+            "head_hat_fedora_easter_2023",
+            "grapple_hook_easter_2023",
+            "checkpoint_sir_duckton"
+        ],
+        "active": true
+    },
+    "pack_space_1": {
+        "title": "Space Pack",
+        "description": "Go to space!",
+        "productid_steam": 13,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_space_basic",
+            "grapple_hook_rocket_basic",
+            "checkpoint_ufo_basic_beam"
+        ],
+        "active": true
+    },
+    "pack_valentines_day_2023": {
+        "title": "Valentines Pack",
+        "description": "Prepare for valentines day with heart shaped assessoires!",
+        "productid_steam": 12,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_tophat_heart",
+            "grapple_hook_arrow_heart",
+            "checkpoint_balloon_heart"
+        ],
+        "active": true
+    },
+    "pack_chinese_new_year_2023": {
+        "title": "Spring Festival Pack",
+        "description": "Celebrate the chinese new year!",
+        "productid_steam": 11,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_glasses_mask_dragon_paper",
+            "grapple_hook_foldingfan_basic",
+            "checkpoint_lantern_chinese"
+        ],
+        "active": true
+    },
+    "pack_christmas_mini_2022": {
+        "title": "Christmas Hat",
+        "description": "Happy Holidays! Claim your free christmas hat!",
+        "productid_steam": 10,
+        "price_currency": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_christmas_2022"
+        ],
+        "active": true
+    },
+    "pack_christmas_2022": {
+        "title": "Holiday Pack",
+        "description": "Become Santa, eat candy and use Bob as your new checkpoint!",
+        "productid_steam": 9,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_tree_christmas_2022",
+            "head_glasses_beard_christmas_2022",
+            "grapple_hook_candycane",
+            "checkpoint_snowman_2022",
+            "checkpoint_northpole_2022"
+        ],
+        "active": true
+    },
+    "pack_samurai_1": {
+        "title": "Samurai Pack",
+        "description": "Become a Samurai!",
+        "productid_steam": 7,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_glasses_mask_oni_basic",
+            "grapple_hook_shoge_basic",
+            "checkpoint_katana_basic"
+        ],
+        "active": true
+    },
+    "pack_ninja_1": {
+        "title": "Ninja Pack",
+        "description": "Become a Ninja!",
+        "productid_steam": 6,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_ninja_basic",
+            "grapple_hook_kunai_basic",
+            "checkpoint_ninjabanner_basic"
+        ],
+        "active": true
+    },
+    "pack_cheese_1": {
+        "title": "Cheese Pack",
+        "description": "Just cheese.",
+        "productid_steam": 3,
+        "price_currency": 800,
+        "type": "durable",
+        "items": [
+            "head_hat_cheese_basic",
+            "grapple_hook_cheese_string",
+            "checkpoint_cheese_basic"
+        ],
+        "active": true
+    },
+    "pack_royal_1": {
+        "title": "Royal Pack",
+        "description": "If you really like the game or just want some very special items, then this is the pack for you!",
+        "productid_steam": 4,
+        "price_currency": 3500,
+        "type": "durable",
+        "items": [
+            "head_hat_crown_royal",
+            "grapple_hook_sword_royal",
+            "checkpoint_scepter_royal"
+        ],
+        "active": true
+    },
+    "pack_easter_2022": {
+        "title": "Easter Pack",
+        "description": "Easter themed items.",
+        "productid_steam": 2,
+        "price_currency": 500,
+        "type": "durable",
+        "items": [
+            "head_hat_bunny_ears_brown",
+            "head_hat_bunny_ears_black",
+            "head_hat_bunny_ears_white",
+            "grapple_hook_carott_basic",
+            "checkpoint_egg_basic_dots",
+            "checkpoint_egg_basic_circles"
+        ],
+        "active": true
+    },
+    "pack_summer_2022": {
+        "title": "Summer Pack",
+        "description": "It's summer!",
+        "productid_steam": 5,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_umbrella_basic",
+            "grapple_hook_shark_basic",
+            "checkpoint_lifebuoyflag_basic"
+        ],
+        "active": true
+    },
+    "pack_halloween_2022": {
+        "title": "Halloween Pack",
+        "description": "Spooky time!",
+        "productid_steam": 8,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_witch_basic",
+            "grapple_hook_spider_basic",
+            "checkpoint_pumpkin_basic"
+        ],
+        "active": true
+    },
+    "pack_review_quest": {
+        "title": "Quest Review Pack",
+        "description": "Thank you for leaving a written review for GRAB on the Quest store! Wear this VR headset to show everyone how amazing you are!",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_glasses_hmd_meta_basic"
+        ]
+    },
+    "pack_admin": {
+        "title": "Admin Items",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_cowboyhat_basic_dev"
+        ]
+    },
+    "pack_moderator": {
+        "title": "Moderator Items",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_sunhat_basic_moderator",
+            "head_hat_sunhat_basic_moderator_player_colors"
+        ]
+    },
+    "pack_early_access_2": {
+        "title": "Early Access Pack",
+        "description": "Get some fancy items and support the development of the game.",
+        "productid_steam": 32,
+        "price_usd": 19.99,
+        "type": "durable",
+        "items": [
+            "currency_1000",
+            "head_hat_tophat_basic_black",
+            "head_hat_tophat_basic_black_with_purple",
+            "head_hat_tophat_basic_black_with_red",
+            "head_hat_tophat_basic_white_with_cyan",
+            "head_hat_tophat_basic_player_colors",
+            "head_hat_baseballcap_basic_pink",
+            "head_hat_baseballcap_basic_darkgreen",
+            "head_hat_baseballcap_basic_darkred",
+            "head_hat_headband_basic_blue",
+            "head_hat_headband_basic_red",
+            "head_hat_headband_basic_black",
+            "grapple_hook_trident_basic_gold",
+            "grapple_hook_stake_basic_wood",
+            "grapple_hook_shovel_basic",
+            "checkpoint_orb_basic_pulsating",
+            "checkpoint_avatar_old",
+            "checkpoint_flag_basic",
+            "hand_sphere_basic"
+        ],
+        "active": true,
+        "overrides": [
+            "pack_early_access_1"
+        ]
+    },
+    "pack_early_access_1": {
+        "title": "Early Access Pack",
+        "description": "Get some fancy items and support the development of the game.",
+        "productid_steam": 1,
+        "price_usd": 9.99,
+        "type": "durable",
+        "items": [
+            "head_hat_tophat_basic_black",
+            "head_hat_tophat_basic_black_with_purple",
+            "head_hat_tophat_basic_black_with_red",
+            "head_hat_tophat_basic_white_with_cyan",
+            "head_hat_tophat_basic_player_colors",
+            "head_hat_baseballcap_basic_pink",
+            "head_hat_baseballcap_basic_darkgreen",
+            "head_hat_baseballcap_basic_darkred",
+            "head_hat_headband_basic_blue",
+            "head_hat_headband_basic_red",
+            "head_hat_headband_basic_black",
+            "grapple_hook_trident_basic_gold",
+            "grapple_hook_stake_basic_wood",
+            "grapple_hook_shovel_basic",
+            "checkpoint_orb_basic_pulsating",
+            "checkpoint_avatar_old",
+            "checkpoint_flag_basic",
+            "hand_sphere_basic"
+        ],
+        "active": true
+    },
+    "currency_100": {
+        "title": "100 Coins",
+        "description": "Can be used to buy in-game items.",
+        "productid_steam": 27,
+        "price_usd": 0.99,
+        "type": "consumable",
+        "items": [
+            "currency_100"
+        ],
+        "active": true
+    },
+    "currency_500": {
+        "title": "500 Coins",
+        "description": "Can be used to buy in-game items.",
+        "productid_steam": 28,
+        "price_usd": 4.99,
+        "type": "consumable",
+        "items": [
+            "currency_500"
+        ],
+        "active": true
+    },
+    "currency_1000": {
+        "title": "1000 Coins",
+        "description": "Can be used to buy in-game items.",
+        "productid_steam": 29,
+        "price_usd": 9.99,
+        "type": "consumable",
+        "items": [
+            "currency_1000"
+        ],
+        "active": true
+    },
+    "currency_2100": {
+        "title": "2100 Coins",
+        "description": "Can be used to buy in-game items.",
+        "productid_steam": 30,
+        "price_usd": 19.99,
+        "type": "consumable",
+        "items": [
+            "currency_2100"
+        ],
+        "active": true
+    },
+    "currency_5500": {
+        "title": "5500 Coins",
+        "description": "Can be used to buy in-game items.",
+        "productid_steam": 31,
+        "price_usd": 49.99,
+        "type": "consumable",
+        "items": [
+            "currency_5500"
+        ],
+        "active": true,
+        "exclude": [
+            "pico"
+        ]
+    }
+}
