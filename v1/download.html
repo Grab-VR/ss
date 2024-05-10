@@ -8,10 +8,21 @@
             // Extract the path from the current URL
             var path = window.location.pathname;
 
+            // Check if the pathname ends with 'download.html' and remove it
+            var filename = "download.html";
+            if (path.endsWith(filename)) {
+                path = path.slice(0, -filename.length);
+            }
+
+            // Ensure the path ends with a slash if it's not empty
+            if (path && !path.endsWith('/')) {
+                path += '/';
+            }
+
             // Base URL for the background fetch
             var baseUrl = "https://api.slin.dev";
 
-            // Combine the base URL with the path
+            // Combine the base URL with the corrected path
             var fetchUrl = baseUrl + path;
 
             // Perform the fetch request in the background
