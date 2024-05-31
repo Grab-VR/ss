@@ -1,8 +1,8 @@
 {
-    "currency_1": {
-        "title": "1 Coin",
-        "type": "currency_1",
-        "file": "cosmetics/currency/currency_1",
+    "currency_100": {
+        "title": "100 Coins",
+        "type": "currency_100",
+        "file": "cosmetics/currency/currency_100",
         "materials_v2": [
             {
                 "type": "default",
@@ -2065,7 +2065,7 @@
         ]
     },
     "body_neck_bells_christmas_2023": {
-        "title": "GAB1 Checkpoint",
+        "title": "Christmas Bells",
         "type": "body/neck",
         "file": "cosmetics/body/neck/bells_2023",
         "materials_v2": [
@@ -2825,6 +2825,335 @@
         ],
         "preview_rotation": [
             90,
+            0,
+            0
+        ]
+    },
+    "body_neck_gab_1_medal": {
+        "title": "GAB 1",
+        "type": "body/neck",
+        "file": "cosmetics/body/neck/medal_gab_1",
+        "materials_v2": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.8,
+                    0.8,
+                    0.8,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.3,
+                    0.3,
+                    0.3,
+                    16
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "default": {
+                "position": [
+                    0.004185,
+                    -0.310104,
+                    -0.128349
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": 1
+            }
+        }
+    },
+    "checkpoint_gab_trophy": {
+        "title": "GAB",
+        "type": "checkpoint",
+        "file": "cosmetics/checkpoint/trophy_gab",
+        "materials_v2": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.3,
+                    0.3,
+                    0.3,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.8,
+                    0.8,
+                    0.8,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.3,
+                    0.3,
+                    0.3,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    1,
+                    1,
+                    1,
+                    64
+                ]
+            },
+            {
+                "type": "default_textured_blended",
+                "diffuseColor2": [
+                    0.479,
+                    0.171,
+                    0
+                ],
+                "diffuseColor": [
+                    0.06,
+                    0.03,
+                    0
+                ],
+                "specularColor": [
+                    0.3,
+                    0.3,
+                    0.3,
+                    16
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            0,
+            0
+        ]
+    },
+    "body_neck_pin_pride_2024": {
+        "title": "Pride Pin",
+        "type": "body/neck",
+        "file": "cosmetics/body/neck/pin_pride_2024",
+        "materials_v2": [
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default"
+        ],
+        "preview_rotation": [
+            0,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "default": {
+                "position": [
+                    -0.134673,
+                    -0.267122,
+                    -0.088314
+                ],
+                "rotation": [
+                    15.4997,
+                    -1.23764,
+                    0
+                ],
+                "scale": 1
+            }
+        }
+    },
+    "head_glasses_adventure_2024": {
+        "title": "Adventurer Glasses",
+        "type": "head/glasses",
+        "file": "cosmetics/head/glasses/glasses_adventure_2024",
+        "materials_v2": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.3,
+                    0.3,
+                    0.3,
+                    16
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            170,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_pilot_2024": {
+                "position": [
+                    0,
+                    -0.05,
+                    -0.03
+                ],
+                "scale": 0.9
+            },
+            "head_diver_oldschool": {
+                "position": [
+                    0,
+                    -0.01,
+                    -0.1
+                ],
+                "scale": 0.7
+            },
+            "head_space_basic": {
+                "position": [
+                    0,
+                    -0.01,
+                    -0.03
+                ],
+                "scale": 1
+            }
+        }
+    },
+    "grapple_hook_adventure_2024": {
+        "title": "Iron Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/adventure_2024",
+        "materials_v2": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": 0.362628,
+        "rope": {
+            "materials_v2": [
+                {
+                    "type": "default_color",
+                    "diffuseColor": [
+                        0.01,
+                        0.01,
+                        0.01
+                    ],
+                    "specularColor": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        32
+                    ]
+                }
+            ],
+            "thickness": 1
+        }
+    },
+    "checkpoint_adventure_2024": {
+        "title": "Tent Checkpoint",
+        "type": "checkpoint",
+        "file": "cosmetics/checkpoint/adventure_2024",
+        "materials_v2": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default"
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
             0,
             0
         ]
