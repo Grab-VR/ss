@@ -1,8 +1,8 @@
 {
     "user_id": "2cmndb6aqd04eegbagxbo",
     "user_name": "vestria",
-    "is_admin": true,
-    "is_moderator": true,
+    "is_admin": false,
+    "is_moderator": false,
     "is_verifier": true,
     "is_creator": true,
     "user_level_count": 0,
