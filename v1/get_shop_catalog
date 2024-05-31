@@ -2,12 +2,11 @@
     {
         "title": "GRAB Coins",
         "items": [
-            "currency_1",
-            "currency_100",
-            "currency_500",
-            "currency_1000",
+            "currency_5500",
             "currency_2100",
-            "currency_5500"
+            "currency_1000",
+            "currency_500",
+            "currency_100"
         ],
         "tag": "section_currency"
     },
@@ -18,6 +17,12 @@
         "sections": [
             {
                 "product": "pack_early_access_2"
+            },
+            {
+                "product": "pack_adventure_2024"
+            },
+            {
+                "product": "pack_pride_2024"
             },
             {
                 "product": "pack_mystic_2024"
@@ -60,6 +65,12 @@
         "sections": [
             {
                 "product": "pack_early_access_2"
+            },
+            {
+                "product": "pack_adventure_2024"
+            },
+            {
+                "product": "pack_pride_2024"
             },
             {
                 "product": "pack_mystic_2024"
@@ -204,6 +215,7 @@
             {
                 "title": "Facewear",
                 "items": [
+                    "head_glasses_adventure_2024",
                     "head_glasses_new_year_2024",
                     "head_glasses_cigar_noir_detective",
                     "head_glasses_glasses_nerd",
@@ -217,6 +229,8 @@
             {
                 "title": "Body",
                 "items": [
+                    "body_neck_gab_1_medal",
+                    "body_neck_pin_pride_2024",
                     "body_neck_mystical_power_source_2024",
                     "body_neck_mystical_power_source_player_colors_2024",
                     "body_neck_bells_christmas_2023",
@@ -232,6 +246,7 @@
             {
                 "title": "Grapples",
                 "items": [
+                    "grapple_hook_adventure_2024",
                     "grapple_hook_mystical_2024",
                     "grapple_hook_jet_2024",
                     "grapple_hook_wild_west_2024",
@@ -264,7 +279,9 @@
             {
                 "title": "Checkpoints",
                 "items": [
+                    "checkpoint_gab_trophy",
                     "checkpoint_the_mountain",
+                    "checkpoint_adventure_2024",
                     "checkpoint_mystical_obelisk_2024",
                     "checkpoint_aircraft_carrier_2024",
                     "checkpoint_easter_2024",
