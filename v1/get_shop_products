@@ -1,4 +1,46 @@
 {
+    "pack_adventure_2024": {
+        "title": "Adventure Pack",
+        "description": "",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_glasses_adventure_2024",
+            "grapple_hook_adventure_2024",
+            "checkpoint_adventure_2024"
+        ],
+        "active": true,
+        "date_end": 1719799200
+    },
+    "pack_pride_2024": {
+        "title": "Pride Pin",
+        "description": "",
+        "type": "durable",
+        "price_currency": 0,
+        "items": [
+            "body_neck_pin_pride_2024"
+        ],
+        "active": true,
+        "date_end": 1719799200
+    },
+    "pack_gab_1_winner": {
+        "title": "GAB 1 Winner",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "checkpoint_gab_trophy"
+        ],
+        "active": false
+    },
+    "pack_gab_1_participant": {
+        "title": "GAB 1 Participant",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "body_neck_gab_1_medal"
+        ],
+        "active": false
+    },
     "pack_mystic_2024": {
         "title": "Mystical Pack",
         "description": "",
@@ -20,7 +62,7 @@
         "items": [
             "head_sir_duckton"
         ],
-        "active": true
+        "active": false
     },
     "pack_pilot_2024": {
         "title": "Pilot Pack",
@@ -43,7 +85,7 @@
             "checkpoint_easter_2024"
         ],
         "active": true,
-        "date_end": 1717192800
+        "date_end": 1712008800
     },
     "pack_wild_west_2024": {
         "title": "Wild West Pack",
@@ -56,7 +98,7 @@
             "grapple_hook_wild_west_2024",
             "checkpoint_wild_west_2024"
         ],
-        "active": true,
+        "active": false,
         "date_end": 1711954800
     },
     "pack_steampunk_2024": {
@@ -70,7 +112,7 @@
             "grapple_hook_hammer_steampunk",
             "checkpoint_steampunk_2024"
         ],
-        "active": true,
+        "active": false,
         "exclude": [
             "pico"
         ]
@@ -87,7 +129,7 @@
             "checkpoint_fireworks_new_year_2024",
             "checkpoint_balloon_new_year_2024"
         ],
-        "active": true,
+        "active": false,
         "exclude": [
             "pico"
         ]
@@ -101,7 +143,7 @@
         "items": [
             "body_neck_bells_christmas_2023"
         ],
-        "active": true
+        "active": false
     },
     "pack_christmas_2023": {
         "title": "Holiday Pack 2023",
@@ -114,7 +156,7 @@
             "grapple_hook_gingerbread_2023",
             "checkpoint_presents_2023"
         ],
-        "active": true
+        "active": false
     },
     "pack_noir_detective_2023": {
         "title": "Noir Detective Pack",
@@ -144,7 +186,7 @@
             "grapple_hook_scythe_halloween_2023",
             "checkpoint_grave_halloween_2023"
         ],
-        "active": true
+        "active": false
     },
     "pack_contest_tutorial_2023": {
         "title": "Tutorial Contest",
@@ -154,7 +196,7 @@
         "items": [
             "head_hat_contest_builder_tutorial"
         ],
-        "active": true
+        "active": false
     },
     "pack_special_mountain_1": {
         "title": "The Mountain",
@@ -164,7 +206,7 @@
         "items": [
             "checkpoint_the_mountain"
         ],
-        "active": true
+        "active": false
     },
     "pack_misc_1": {
         "title": "Misc Pack",
@@ -190,7 +232,7 @@
             "grapple_hook_pen_marker",
             "checkpoint_backpack_school"
         ],
-        "active": true
+        "active": false
     },
     "pack_summer_2023": {
         "title": "Summer 2023",
@@ -203,7 +245,7 @@
             "grapple_hook_kite_basic",
             "checkpoint_scubatanks"
         ],
-        "active": true
+        "active": false
     },
     "pack_devilvsangel_1": {
         "title": "Devil vs Angel Pack",
@@ -246,7 +288,7 @@
             "grapple_hook_easter_2023",
             "checkpoint_sir_duckton"
         ],
-        "active": true
+        "active": false
     },
     "pack_space_1": {
         "title": "Space Pack",
@@ -272,7 +314,7 @@
             "grapple_hook_arrow_heart",
             "checkpoint_balloon_heart"
         ],
-        "active": true
+        "active": false
     },
     "pack_chinese_new_year_2023": {
         "title": "Spring Festival Pack",
@@ -285,7 +327,7 @@
             "grapple_hook_foldingfan_basic",
             "checkpoint_lantern_chinese"
         ],
-        "active": true
+        "active": false
     },
     "pack_christmas_mini_2022": {
         "title": "Christmas Hat",
@@ -296,7 +338,7 @@
         "items": [
             "head_hat_christmas_2022"
         ],
-        "active": true
+        "active": false
     },
     "pack_christmas_2022": {
         "title": "Holiday Pack",
@@ -311,7 +353,7 @@
             "checkpoint_snowman_2022",
             "checkpoint_northpole_2022"
         ],
-        "active": true
+        "active": false
     },
     "pack_samurai_1": {
         "title": "Samurai Pack",
@@ -379,7 +421,7 @@
             "checkpoint_egg_basic_dots",
             "checkpoint_egg_basic_circles"
         ],
-        "active": true
+        "active": false
     },
     "pack_summer_2022": {
         "title": "Summer Pack",
@@ -392,7 +434,7 @@
             "grapple_hook_shark_basic",
             "checkpoint_lifebuoyflag_basic"
         ],
-        "active": true
+        "active": false
     },
     "pack_halloween_2022": {
         "title": "Halloween Pack",
@@ -405,7 +447,7 @@
             "grapple_hook_spider_basic",
             "checkpoint_pumpkin_basic"
         ],
-        "active": true
+        "active": false
     },
     "pack_review_quest": {
         "title": "Quest Review Pack",
@@ -491,18 +533,7 @@
             "checkpoint_flag_basic",
             "hand_sphere_basic"
         ],
-        "active": true
-    },
-    "currency_1": {
-        "title": "1 Coin",
-        "description": "Can be used to buy in-game items.",
-        "productid_steam": 26,
-        "price_usd": 0.00,
-        "type": "consumable",
-        "items": [
-            "currency_1"
-        ],
-        "active": true
+        "active": false
     },
     "currency_100": {
         "title": "100 Coins",
