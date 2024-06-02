@@ -33,7 +33,7 @@
             0,
             0
         ],
-        "not_equippable": true
+        "not_equippable": false
     },
     "currency_500": {
         "title": "500 Coins",
@@ -69,7 +69,7 @@
             0,
             0
         ],
-        "not_equippable": true
+        "not_equippable": false
     },
     "currency_1000": {
         "title": "1000 Coins",
@@ -105,7 +105,7 @@
             0,
             0
         ],
-        "not_equippable": true
+        "not_equippable": false
     },
     "currency_2100": {
         "title": "2100 Coins",
@@ -141,7 +141,7 @@
             0,
             0
         ],
-        "not_equippable": true
+        "not_equippable": false
     },
     "currency_5500": {
         "title": "5500 Coins",
@@ -177,15 +177,15 @@
             0,
             0
         ],
-        "not_equippable": true
+        "not_equippable": false
     },
     "head_hat_cowboyhat_basic_dev": {
         "title": "Admin Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/cowboyhat_basic_dev",
         "materials_v2": [
-            "default",
-            "default"
+            "default_secondary_color",
+            "default_primary_color"
         ],
         "preview_rotation": [
             180,
