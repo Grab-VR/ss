@@ -29,5 +29,8 @@
                 1
             ]
         }
+    },
+    "moderation_info": {
+        "type": "ban"
     }
 }
