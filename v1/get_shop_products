@@ -1,4 +1,59 @@
 {
+    "pack_early_adopter_2024": {
+        "title": "Early Adopter Pack",
+        "description": "Be a super hero! Only available for a limited time!",
+        "type": "durable",
+        "price_currency": 2000,
+        "items": [
+            "head_early_adopter_2024",
+            "body_early_adopter_2024",
+            "body_backpack_early_adopter_2024"
+        ],
+        "active": false
+    },
+    "pack_release_day_2024": {
+        "title": "Release Day Badge",
+        "description": "Get it while you can!",
+        "type": "durable",
+        "price_currency": 0,
+        "items": [
+            "body_badge_release_day_2024"
+        ],
+        "active": false
+    },
+    "pack_starter_2024": {
+        "title": "Starter Pack",
+        "description": "A collection of amazing items to get you started!",
+        "productid_steam": 33,
+        "price_usd": 19.99,
+        "type": "durable",
+        "items": [
+            "currency_1000",
+            "head_hat_starter_2024_tophat_black",
+            "head_hat_starter_2024_tophat_white",
+            "head_hat_starter_2024_tophat_player",
+            "head_hat_starter_2024_bucket",
+            "head_hat_starter_2024_headphones",
+            "grapple_hook_starter_2024_boxing",
+            "grapple_hook_starter_2024_arrow",
+            "checkpoint_starter_2024_flag",
+            "checkpoint_starter_2024_sign"
+        ],
+        "active": false
+    },
+    "pack_summer_2024": {
+        "title": "Summer Pack 2024",
+        "description": "",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_hat_summer_2024",
+            "head_glasses_summer_2024",
+            "checkpoint_summer_2024"
+        ],
+        "active": true,
+        "date_end": 1722492000
+    },
     "pack_adventure_2024": {
         "title": "Adventure Pack",
         "description": "",
@@ -10,7 +65,8 @@
             "checkpoint_adventure_2024"
         ],
         "active": true,
-        "date_end": 1719799200
+        "date_end": 1719799200,
+        "sort_priority": 300
     },
     "pack_pride_2024": {
         "title": "Pride Pin",
@@ -18,28 +74,12 @@
         "type": "durable",
         "price_currency": 0,
         "items": [
+            "body_badge_pin_pride_2024",
             "body_neck_pin_pride_2024"
         ],
         "active": true,
-        "date_end": 1719799200
-    },
-    "pack_gab_1_winner": {
-        "title": "GAB 1 Winner",
-        "description": "",
-        "type": "durable",
-        "items": [
-            "checkpoint_gab_trophy"
-        ],
-        "active": false
-    },
-    "pack_gab_1_participant": {
-        "title": "GAB 1 Participant",
-        "description": "",
-        "type": "durable",
-        "items": [
-            "body_neck_gab_1_medal"
-        ],
-        "active": false
+        "date_end": 1719799200,
+        "sort_priority": 290
     },
     "pack_mystic_2024": {
         "title": "Mystical Pack",
@@ -52,17 +92,7 @@
             "grapple_hook_mystical_2024",
             "checkpoint_mystical_obelisk_2024"
         ],
-        "active": true,
-        "date_end": 1717192800
-    },
-    "pack_player_ebspark": {
-        "title": "EB Pack",
-        "description": "",
-        "type": "durable",
-        "items": [
-            "head_sir_duckton"
-        ],
-        "active": false
+        "sort_priority": 280
     },
     "pack_pilot_2024": {
         "title": "Pilot Pack",
@@ -74,7 +104,8 @@
             "grapple_hook_jet_2024",
             "checkpoint_aircraft_carrier_2024"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 270
     },
     "pack_easter_2024": {
         "title": "Peeppoint",
@@ -84,8 +115,7 @@
         "items": [
             "checkpoint_easter_2024"
         ],
-        "active": true,
-        "date_end": 1712008800
+        "sort_priority": 260
     },
     "pack_wild_west_2024": {
         "title": "Wild West Pack",
@@ -98,8 +128,7 @@
             "grapple_hook_wild_west_2024",
             "checkpoint_wild_west_2024"
         ],
-        "active": false,
-        "date_end": 1711954800
+        "sort_priority": 250
     },
     "pack_steampunk_2024": {
         "title": "Cogs of Affection",
@@ -112,10 +141,7 @@
             "grapple_hook_hammer_steampunk",
             "checkpoint_steampunk_2024"
         ],
-        "active": false,
-        "exclude": [
-            "pico"
-        ]
+        "sort_priority": 240
     },
     "pack_new_year_2024": {
         "title": "2024",
@@ -129,21 +155,7 @@
             "checkpoint_fireworks_new_year_2024",
             "checkpoint_balloon_new_year_2024"
         ],
-        "active": false,
-        "exclude": [
-            "pico"
-        ]
-    },
-    "pack_christmas_mini_2023": {
-        "title": "Christmas Bells (Free)",
-        "description": "Happy Holidays! Claim your free christmas bells!",
-        "productid_steam": 23,
-        "price_currency": 0,
-        "type": "durable",
-        "items": [
-            "body_neck_bells_christmas_2023"
-        ],
-        "active": false
+        "sort_priority": 230
     },
     "pack_christmas_2023": {
         "title": "Holiday Pack 2023",
@@ -156,7 +168,18 @@
             "grapple_hook_gingerbread_2023",
             "checkpoint_presents_2023"
         ],
-        "active": false
+        "sort_priority": 220
+    },
+    "pack_christmas_mini_2023": {
+        "title": "Christmas Bells (Free)",
+        "description": "Happy Holidays! Claim your free christmas bells!",
+        "productid_steam": 23,
+        "price_currency": 0,
+        "type": "durable",
+        "items": [
+            "body_neck_bells_christmas_2023"
+        ],
+        "sort_priority": 210
     },
     "pack_noir_detective_2023": {
         "title": "Noir Detective Pack",
@@ -173,7 +196,8 @@
         "active": true,
         "exclude": [
             "pico"
-        ]
+        ],
+        "sort_priority": 200
     },
     "pack_halloween_2023": {
         "title": "Halloween 2023 Pack",
@@ -186,27 +210,7 @@
             "grapple_hook_scythe_halloween_2023",
             "checkpoint_grave_halloween_2023"
         ],
-        "active": false
-    },
-    "pack_contest_tutorial_2023": {
-        "title": "Tutorial Contest",
-        "description": "Thanks for participating!",
-        "price_usd": 0,
-        "type": "durable",
-        "items": [
-            "head_hat_contest_builder_tutorial"
-        ],
-        "active": false
-    },
-    "pack_special_mountain_1": {
-        "title": "The Mountain",
-        "description": "You did it!",
-        "price_usd": 0,
-        "type": "durable",
-        "items": [
-            "checkpoint_the_mountain"
-        ],
-        "active": false
+        "sort_priority": 190
     },
     "pack_misc_1": {
         "title": "Misc Pack",
@@ -219,7 +223,8 @@
             "grapple_hook_hotdog",
             "checkpoint_chair_folding"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 180
     },
     "pack_backtoschool_2023": {
         "title": "Back to School Pack",
@@ -232,7 +237,7 @@
             "grapple_hook_pen_marker",
             "checkpoint_backpack_school"
         ],
-        "active": false
+        "sort_priority": 170
     },
     "pack_summer_2023": {
         "title": "Summer 2023",
@@ -245,7 +250,7 @@
             "grapple_hook_kite_basic",
             "checkpoint_scubatanks"
         ],
-        "active": false
+        "sort_priority": 160
     },
     "pack_devilvsangel_1": {
         "title": "Devil vs Angel Pack",
@@ -262,7 +267,8 @@
             "checkpoint_gate_angel",
             "checkpoint_pentagram_devil"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 150
     },
     "pack_animals_1": {
         "title": "Animal Pack",
@@ -275,7 +281,8 @@
             "grapple_hook_fish_rizzler",
             "checkpoint_fox_inu"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 140
     },
     "pack_easter_2023": {
         "title": "Easter Pack 2023",
@@ -288,7 +295,7 @@
             "grapple_hook_easter_2023",
             "checkpoint_sir_duckton"
         ],
-        "active": false
+        "sort_priority": 130
     },
     "pack_space_1": {
         "title": "Space Pack",
@@ -301,7 +308,8 @@
             "grapple_hook_rocket_basic",
             "checkpoint_ufo_basic_beam"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 120
     },
     "pack_valentines_day_2023": {
         "title": "Valentines Pack",
@@ -314,7 +322,7 @@
             "grapple_hook_arrow_heart",
             "checkpoint_balloon_heart"
         ],
-        "active": false
+        "sort_priority": 110
     },
     "pack_chinese_new_year_2023": {
         "title": "Spring Festival Pack",
@@ -327,18 +335,7 @@
             "grapple_hook_foldingfan_basic",
             "checkpoint_lantern_chinese"
         ],
-        "active": false
-    },
-    "pack_christmas_mini_2022": {
-        "title": "Christmas Hat",
-        "description": "Happy Holidays! Claim your free christmas hat!",
-        "productid_steam": 10,
-        "price_currency": 0,
-        "type": "durable",
-        "items": [
-            "head_hat_christmas_2022"
-        ],
-        "active": false
+        "sort_priority": 100
     },
     "pack_christmas_2022": {
         "title": "Holiday Pack",
@@ -353,7 +350,18 @@
             "checkpoint_snowman_2022",
             "checkpoint_northpole_2022"
         ],
-        "active": false
+        "sort_priority": 90
+    },
+    "pack_christmas_mini_2022": {
+        "title": "Christmas Hat",
+        "description": "Happy Holidays! Claim your free christmas hat!",
+        "productid_steam": 10,
+        "price_currency": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_christmas_2022"
+        ],
+        "sort_priority": 80
     },
     "pack_samurai_1": {
         "title": "Samurai Pack",
@@ -366,7 +374,8 @@
             "grapple_hook_shoge_basic",
             "checkpoint_katana_basic"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 70
     },
     "pack_ninja_1": {
         "title": "Ninja Pack",
@@ -379,20 +388,34 @@
             "grapple_hook_kunai_basic",
             "checkpoint_ninjabanner_basic"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 60
     },
-    "pack_cheese_1": {
-        "title": "Cheese Pack",
-        "description": "Just cheese.",
-        "productid_steam": 3,
-        "price_currency": 800,
+    "pack_halloween_2022": {
+        "title": "Halloween Pack",
+        "description": "Spooky time!",
+        "productid_steam": 8,
+        "price_currency": 1000,
         "type": "durable",
         "items": [
-            "head_hat_cheese_basic",
-            "grapple_hook_cheese_string",
-            "checkpoint_cheese_basic"
+            "head_hat_witch_basic",
+            "grapple_hook_spider_basic",
+            "checkpoint_pumpkin_basic"
         ],
-        "active": true
+        "sort_priority": 50
+    },
+    "pack_summer_2022": {
+        "title": "Summer Pack",
+        "description": "It's summer!",
+        "productid_steam": 5,
+        "price_currency": 1000,
+        "type": "durable",
+        "items": [
+            "head_hat_umbrella_basic",
+            "grapple_hook_shark_basic",
+            "checkpoint_lifebuoyflag_basic"
+        ],
+        "sort_priority": 40
     },
     "pack_royal_1": {
         "title": "Royal Pack",
@@ -405,7 +428,22 @@
             "grapple_hook_sword_royal",
             "checkpoint_scepter_royal"
         ],
-        "active": true
+        "active": true,
+        "sort_priority": 30
+    },
+    "pack_cheese_1": {
+        "title": "Cheese Pack",
+        "description": "Just cheese.",
+        "productid_steam": 3,
+        "price_currency": 800,
+        "type": "durable",
+        "items": [
+            "head_hat_cheese_basic",
+            "grapple_hook_cheese_string",
+            "checkpoint_cheese_basic"
+        ],
+        "active": true,
+        "sort_priority": 20
     },
     "pack_easter_2022": {
         "title": "Easter Pack",
@@ -421,59 +459,7 @@
             "checkpoint_egg_basic_dots",
             "checkpoint_egg_basic_circles"
         ],
-        "active": false
-    },
-    "pack_summer_2022": {
-        "title": "Summer Pack",
-        "description": "It's summer!",
-        "productid_steam": 5,
-        "price_currency": 1000,
-        "type": "durable",
-        "items": [
-            "head_hat_umbrella_basic",
-            "grapple_hook_shark_basic",
-            "checkpoint_lifebuoyflag_basic"
-        ],
-        "active": false
-    },
-    "pack_halloween_2022": {
-        "title": "Halloween Pack",
-        "description": "Spooky time!",
-        "productid_steam": 8,
-        "price_currency": 1000,
-        "type": "durable",
-        "items": [
-            "head_hat_witch_basic",
-            "grapple_hook_spider_basic",
-            "checkpoint_pumpkin_basic"
-        ],
-        "active": false
-    },
-    "pack_review_quest": {
-        "title": "Quest Review Pack",
-        "description": "Thank you for leaving a written review for GRAB on the Quest store! Wear this VR headset to show everyone how amazing you are!",
-        "price_usd": 0,
-        "type": "durable",
-        "items": [
-            "head_glasses_hmd_meta_basic"
-        ]
-    },
-    "pack_admin": {
-        "title": "Admin Items",
-        "price_usd": 0,
-        "type": "durable",
-        "items": [
-            "head_hat_cowboyhat_basic_dev"
-        ]
-    },
-    "pack_moderator": {
-        "title": "Moderator Items",
-        "price_usd": 0,
-        "type": "durable",
-        "items": [
-            "head_hat_sunhat_basic_moderator",
-            "head_hat_sunhat_basic_moderator_player_colors"
-        ]
+        "sort_priority": 10
     },
     "pack_early_access_2": {
         "title": "Early Access Pack",
@@ -500,12 +486,14 @@
             "checkpoint_orb_basic_pulsating",
             "checkpoint_avatar_old",
             "checkpoint_flag_basic",
-            "hand_sphere_basic"
+            "hand_sphere_basic",
+            "body_backpack_original"
         ],
         "active": true,
         "overrides": [
             "pack_early_access_1"
-        ]
+        ],
+        "sort_priority": 1
     },
     "pack_early_access_1": {
         "title": "Early Access Pack",
@@ -531,9 +519,494 @@
             "checkpoint_orb_basic_pulsating",
             "checkpoint_avatar_old",
             "checkpoint_flag_basic",
-            "hand_sphere_basic"
+            "hand_sphere_basic",
+            "body_backpack_original"
         ],
-        "active": false
+        "sort_priority": 1
+    },
+    "rotation_2024_mask_mustache_1": {
+        "title": "Curly Mustache",
+        "type": "durable",
+        "price_currency": 500,
+        "items": [
+            "head_glasses_rotation_2024_mustache_1"
+        ]
+    },
+    "rotation_2024_mask_mustache_2": {
+        "title": "Mustache",
+        "type": "durable",
+        "price_currency": 500,
+        "items": [
+            "head_glasses_rotation_2024_mustache_2"
+        ]
+    },
+    "rotation_2024_hat_octopus": {
+        "title": "Octopus Hat",
+        "type": "durable",
+        "price_currency": 1500,
+        "items": [
+            "head_hat_rotation_2024_octopus"
+        ]
+    },
+    "rotation_2024_hat_bucket_real": {
+        "title": "Bucket Hat (real)",
+        "type": "durable",
+        "price_currency": 700,
+        "items": [
+            "head_hat_rotation_2024_bucket_real"
+        ]
+    },
+    "rotation_2024_grapple_pirate": {
+        "title": "Pirate Grapple",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "grapple_hook_rotation_2024_pirate"
+        ]
+    },
+    "rotation_2024_checkpoint_flower": {
+        "title": "Flower Checkpoint",
+        "type": "durable",
+        "price_currency": 1500,
+        "items": [
+            "checkpoint_rotation_2024_flower"
+        ]
+    },
+    "rotation_2024_backpack_travel": {
+        "title": "Travel Backpack",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "body_backpack_rotation_2024_travel"
+        ]
+    },
+    "rotation_2024_head_monkey": {
+        "title": "Monkey Head",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_rotation_2024_monkey"
+        ]
+    },
+    "rotation_2024_body_monkey": {
+        "title": "Monkey Body",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "body_rotation_2024_monkey"
+        ]
+    },
+    "rotation_2024_hand_monkey": {
+        "title": "Monkey Hand",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "hand_rotation_2024_monkey"
+        ]
+    },
+    "rotation_2024_neck_goldchain": {
+        "title": "Gold Chain",
+        "type": "durable",
+        "price_currency": 600,
+        "items": [
+            "body_neck_rotation_2024_goldchain"
+        ]
+    },
+    "rotation_2024_hat_chef": {
+        "title": "Chef Hat",
+        "type": "durable",
+        "price_currency": 700,
+        "items": [
+            "head_hat_rotation_2024_chef"
+        ]
+    },
+    "rotation_2024_hat_trafficcone": {
+        "title": "Traffic Cone Hat",
+        "type": "durable",
+        "price_currency": 500,
+        "items": [
+            "head_hat_rotation_2024_trafficcone"
+        ]
+    },
+    "rotation_2024_hat_dino": {
+        "title": "Dino Hat",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_hat_rotation_2024_dino"
+        ]
+    },
+    "rotation_2024_grapple_drill": {
+        "title": "Drill Grapple",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "grapple_hook_rotation_2024_drill"
+        ]
+    },
+    "rotation_2024_checkpoint_ducky": {
+        "title": "Ducky Checkpoint",
+        "type": "durable",
+        "price_currency": 600,
+        "items": [
+            "checkpoint_rotation_2024_ducky"
+        ]
+    },
+    "rotation_2024_hat_headset_gamer": {
+        "title": "Gamer Headset",
+        "type": "durable",
+        "price_currency": 500,
+        "items": [
+            "head_hat_rotation_2024_headset_gamer"
+        ]
+    },
+    "rotation_2024_backpack_jetpack": {
+        "title": "Jetpack",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "body_backpack_rotation_2024_jetpack"
+        ]
+    },
+    "rotation_2024_head_knight": {
+        "title": "Knight Head",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_rotation_2024_knight"
+        ]
+    },
+    "rotation_2024_checkpoint_moai": {
+        "title": "Moai Checkpoint",
+        "type": "durable",
+        "price_currency": 700,
+        "items": [
+            "checkpoint_rotation_2024_moai"
+        ]
+    },
+    "rotation_2024_checkpoint_portal": {
+        "title": "Moai Checkpoint",
+        "type": "durable",
+        "price_currency": 900,
+        "items": [
+            "checkpoint_rotation_2024_portal"
+        ]
+    },
+    "rotation_2024_neck_scarf": {
+        "title": "Scarf",
+        "type": "durable",
+        "price_currency": 500,
+        "items": [
+            "body_neck_rotation_2024_scarf"
+        ]
+    },
+    "rotation_2024_mask_skigoggles": {
+        "title": "Ski Goggles",
+        "type": "durable",
+        "price_currency": 600,
+        "items": [
+            "head_glasses_rotation_2024_skigoggles"
+        ]
+    },
+    "rotation_2024_mask_sunglasses": {
+        "title": "Sub Glasses",
+        "type": "durable",
+        "price_currency": 400,
+        "items": [
+            "head_glasses_rotation_2024_sunglasses"
+        ]
+    },
+    "rotation_2024_checkpoint_toilet": {
+        "title": "Toilet Checkpoint",
+        "type": "durable",
+        "price_currency": 900,
+        "items": [
+            "checkpoint_rotation_2024_toilet"
+        ]
+    },
+    "rotation_2024_backpack_solar": {
+        "title": "Solar Backpack",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "body_backpack_rotation_2024_solar"
+        ]
+    },
+    "rotation_2024_hat_tophats": {
+        "title": "Top Hat Madness",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "head_hat_rotation_2024_tophats"
+        ]
+    },
+    "rotation_2024_glasses_plaguemask": {
+        "title": "Plague Mask",
+        "type": "durable",
+        "price_currency": 1100,
+        "items": [
+            "head_glasses_rotation_2024_plaguemask"
+        ]
+    },
+    "rotation_2024_glasses_gasmask": {
+        "title": "Gas Mask",
+        "type": "durable",
+        "price_currency": 1100,
+        "items": [
+            "head_glasses_rotation_2024_gasmask"
+        ]
+    },
+    "rotation_2024_hat_bearskin": {
+        "title": "Bearskin",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "head_hat_rotation_2024_bearskin"
+        ]
+    },
+    "rotation_2024_hat_scientisthair": {
+        "title": "Hair of Science",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_hat_rotation_2024_scientisthair"
+        ]
+    },
+    "rotation_2024_backpack_guitar": {
+        "title": "Guitar Backpack",
+        "type": "durable",
+        "price_currency": 700,
+        "items": [
+            "body_backpack_rotation_2024_guitar"
+        ]
+    },
+    "rotation_2024_neck_tie": {
+        "title": "Tie",
+        "type": "durable",
+        "price_currency": 500,
+        "items": [
+            "body_neck_rotation_2024_tie"
+        ]
+    },
+    "rotation_2024_hat_beanie": {
+        "title": "Beanie",
+        "type": "durable",
+        "price_currency": 400,
+        "items": [
+            "head_hat_rotation_2024_beanie"
+        ]
+    },
+    "rotation_2024_hat_flowerring": {
+        "title": "Flower Wreath",
+        "type": "durable",
+        "price_currency": 700,
+        "items": [
+            "head_hat_rotation_2024_flowerring"
+        ]
+    },
+    "rotation_2024_backpack_angelwings": {
+        "title": "Angel Wings",
+        "type": "durable",
+        "price_currency": 1200,
+        "items": [
+            "body_backpack_rotation_2024_angelwings"
+        ]
+    },
+    "rotation_2024_checkpoint_nuclearwaste": {
+        "title": "Nuclear Waste Checkpoint",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "checkpoint_rotation_2024_nuclearwaste"
+        ]
+    },
+    "rotation_2024_head_damageddefault": {
+        "title": "Damaged Helmet",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "head_rotation_2024_damageddefault"
+        ]
+    },
+    "rotation_2024_body_damageddefault": {
+        "title": "Damaged Body",
+        "type": "durable",
+        "price_currency": 800,
+        "items": [
+            "body_rotation_2024_damageddefault"
+        ]
+    },
+    "rotation_2024_head_brokendefault": {
+        "title": "Cracked Helmet",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "head_rotation_2024_brokendefault"
+        ]
+    },
+    "rotation_2024_body_brokendefault": {
+        "title": "Cracked Body",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "body_rotation_2024_brokendefault"
+        ]
+    },
+    "rotation_2024_hand_cat": {
+        "title": "Cat Paws",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "hand_rotation_2024_cat"
+        ]
+    },
+    "rotation_2024_hand_crab": {
+        "title": "Crab Claws",
+        "type": "durable",
+        "price_currency": 1000,
+        "items": [
+            "hand_rotation_2024_crab"
+        ]
+    },
+    "pack_gab_1_winner": {
+        "title": "GAB 1 Winner",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "checkpoint_gab_trophy"
+        ],
+        "sort_priority": 100000
+    },
+    "pack_gab_1_participant": {
+        "title": "GAB 1 Participant",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "body_neck_gab_1_medal"
+        ],
+        "sort_priority": 100000
+    },
+    "pack_player_ebspark": {
+        "title": "EB Pack",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "head_sir_duckton"
+        ],
+        "sort_priority": 100000
+    },
+    "pack_contest_tutorial_2023": {
+        "title": "Tutorial Contest",
+        "description": "Thanks for participating!",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_contest_builder_tutorial"
+        ],
+        "sort_priority": 100000
+    },
+    "pack_special_mountain_1": {
+        "title": "The Mountain",
+        "description": "You did it!",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "checkpoint_the_mountain"
+        ],
+        "sort_priority": 100000
+    },
+    "pack_review_quest": {
+        "title": "Quest Review Pack",
+        "description": "Thank you for leaving a written review for GRAB on the Quest store! Wear this VR headset to show everyone how amazing you are!",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_glasses_hmd_meta_basic"
+        ]
+    },
+    "pack_admin": {
+        "title": "Admin Items",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_cowboyhat_basic_dev"
+        ],
+        "sort_priority": 1000000
+    },
+    "pack_moderator": {
+        "title": "Moderator Items",
+        "price_usd": 0,
+        "type": "durable",
+        "items": [
+            "head_hat_sunhat_basic_moderator",
+            "head_hat_sunhat_basic_moderator_player_colors"
+        ],
+        "sort_priority": 1000000
+    },
+    "pack_testing": {
+        "title": "Test Pack",
+        "description": "",
+        "type": "durable",
+        "items": [
+            "head_early_adopter_2024",
+            "body_early_adopter_2024",
+            "body_backpack_early_adopter_2024",
+            "body_badge_release_day_2024",
+            "head_hat_starter_2024_tophat_black",
+            "head_hat_starter_2024_tophat_white",
+            "head_hat_starter_2024_tophat_player",
+            "head_hat_starter_2024_bucket",
+            "head_hat_starter_2024_headphones",
+            "grapple_hook_starter_2024_boxing",
+            "grapple_hook_starter_2024_arrow",
+            "checkpoint_starter_2024_flag",
+            "checkpoint_starter_2024_sign",
+            "head_glasses_rotation_2024_mustache_1",
+            "head_glasses_rotation_2024_mustache_2",
+            "head_hat_rotation_2024_octopus",
+            "head_hat_rotation_2024_bucket_real",
+            "grapple_hook_rotation_2024_pirate",
+            "checkpoint_rotation_2024_flower",
+            "body_backpack_rotation_2024_travel",
+            "body_rotation_2024_monkey",
+            "head_rotation_2024_monkey",
+            "hand_rotation_2024_monkey",
+            "body_neck_rotation_2024_goldchain",
+            "head_hat_rotation_2024_chef",
+            "head_hat_rotation_2024_trafficcone",
+            "head_hat_rotation_2024_dino",
+            "grapple_hook_rotation_2024_drill",
+            "checkpoint_rotation_2024_ducky",
+            "head_hat_rotation_2024_headset_gamer",
+            "body_backpack_rotation_2024_jetpack",
+            "head_rotation_2024_knight",
+            "checkpoint_rotation_2024_moai",
+            "checkpoint_rotation_2024_portal",
+            "body_neck_rotation_2024_scarf",
+            "head_glasses_rotation_2024_skigoggles",
+            "head_glasses_rotation_2024_sunglasses",
+            "checkpoint_rotation_2024_toilet",
+            "body_backpack_rotation_2024_solar",
+            "head_hat_rotation_2024_tophats",
+            "head_glasses_rotation_2024_plaguemask",
+            "head_glasses_rotation_2024_gasmask",
+            "head_hat_rotation_2024_bearskin",
+            "head_hat_rotation_2024_scientisthair",
+            "body_backpack_rotation_2024_guitar",
+            "body_neck_rotation_2024_tie",
+            "head_hat_rotation_2024_beanie",
+            "head_hat_rotation_2024_flowerring",
+            "body_backpack_rotation_2024_angelwings",
+            "checkpoint_rotation_2024_nuclearwaste",
+            "body_rotation_2024_damageddefault",
+            "head_rotation_2024_damageddefault",
+            "body_rotation_2024_brokendefault",
+            "head_rotation_2024_brokendefault",
+            "hand_rotation_2024_cat",
+            "hand_rotation_2024_crab"
+        ],
+        "active": false,
+        "sort_priority": 999
     },
     "currency_100": {
         "title": "100 Coins",
