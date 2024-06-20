@@ -11,12 +11,14 @@
         "tag": "section_currency"
     },
     {
-        "title": "Shop Highlights",
+        "title": "Shop",
         "tag": "shop_highlights",
-        "count": 2,
         "sections": [
             {
                 "product": "pack_early_access_2"
+            },
+            {
+                "product": "pack_summer_2024"
             },
             {
                 "product": "pack_adventure_2024"
@@ -60,11 +62,14 @@
         ]
     },
     {
-        "title": "Open Shop",
-        "title_short": "Shop",
+        "title": "Shop",
+        "tag": "shop_packs",
         "sections": [
             {
                 "product": "pack_early_access_2"
+            },
+            {
+                "product": "pack_summer_2024"
             },
             {
                 "product": "pack_adventure_2024"
@@ -155,175 +160,6 @@
             },
             {
                 "product": "pack_easter_2022"
-            }
-        ]
-    },
-    {
-        "title": "Edit Character",
-        "sections": [
-            {
-                "title": "Heads",
-                "items": [
-                    "head_sir_duckton",
-                    "head_pilot_2024",
-                    "head_diver_oldschool",
-                    "head_space_basic"
-                ]
-            },
-            {
-                "title": "Hats",
-                "items": [
-                    "head_hat_cowboyhat_basic_dev",
-                    "head_hat_sunhat_basic_moderator",
-                    "head_hat_sunhat_basic_moderator_player_colors",
-                    "head_hat_contest_builder_tutorial",
-                    "head_hat_wild_west_2024",
-                    "head_hat_steampunk_2024",
-                    "head_hat_new_year_2024",
-                    "head_hat_antlers_2023",
-                    "head_hat_fedora_noir_detective",
-                    "head_hat_hatchet_halloween_2023",
-                    "head_hat_baseballcap_propeller_redblue",
-                    "head_hat_halo_angel_basic",
-                    "head_hat_halo_angel_basic_detail",
-                    "head_hat_catears_piercing",
-                    "head_hat_fedora_easter_2023",
-                    "head_hat_tophat_heart",
-                    "head_hat_christmas_2022",
-                    "head_hat_tree_christmas_2022",
-                    "head_hat_witch_basic",
-                    "head_hat_ninja_basic",
-                    "head_hat_umbrella_basic",
-                    "head_hat_crown_royal",
-                    "head_hat_cheese_basic",
-                    "head_hat_bunny_ears_brown",
-                    "head_hat_bunny_ears_black",
-                    "head_hat_bunny_ears_white",
-                    "head_hat_tophat_basic_black",
-                    "head_hat_tophat_basic_black_with_purple",
-                    "head_hat_tophat_basic_black_with_red",
-                    "head_hat_tophat_basic_white_with_cyan",
-                    "head_hat_tophat_basic_player_colors",
-                    "head_hat_baseballcap_basic_pink",
-                    "head_hat_baseballcap_basic_darkgreen",
-                    "head_hat_baseballcap_basic_darkred",
-                    "head_hat_headband_basic_blue",
-                    "head_hat_headband_basic_red",
-                    "head_hat_headband_basic_black"
-                ]
-            },
-            {
-                "title": "Facewear",
-                "items": [
-                    "head_glasses_adventure_2024",
-                    "head_glasses_new_year_2024",
-                    "head_glasses_cigar_noir_detective",
-                    "head_glasses_glasses_nerd",
-                    "head_glasses_horns_devil_basic",
-                    "head_glasses_mask_dragon_paper",
-                    "head_glasses_beard_christmas_2022",
-                    "head_glasses_hmd_meta_basic",
-                    "head_glasses_mask_oni_basic"
-                ]
-            },
-            {
-                "title": "Body",
-                "items": [
-                    "body_neck_gab_1_medal",
-                    "body_neck_pin_pride_2024",
-                    "body_neck_mystical_power_source_2024",
-                    "body_neck_mystical_power_source_player_colors_2024",
-                    "body_neck_bells_christmas_2023",
-                    "body_neck_bowtie_noir_detective"
-                ]
-            },
-            {
-                "title": "Hands",
-                "items": [
-                    "hand_sphere_basic"
-                ]
-            },
-            {
-                "title": "Grapples",
-                "items": [
-                    "grapple_hook_adventure_2024",
-                    "grapple_hook_mystical_2024",
-                    "grapple_hook_jet_2024",
-                    "grapple_hook_wild_west_2024",
-                    "grapple_hook_hammer_steampunk",
-                    "grapple_hook_gingerbread_2023",
-                    "grapple_hook_scythe_halloween_2023",
-                    "grapple_hook_hotdog",
-                    "grapple_hook_pen_marker",
-                    "grapple_hook_kite_basic",
-                    "grapple_hook_spear_angel",
-                    "grapple_hook_trident_devil",
-                    "grapple_hook_fish_rizzler",
-                    "grapple_hook_easter_2023",
-                    "grapple_hook_rocket_basic",
-                    "grapple_hook_arrow_heart",
-                    "grapple_hook_foldingfan_basic",
-                    "grapple_hook_candycane",
-                    "grapple_hook_spider_basic",
-                    "grapple_hook_shoge_basic",
-                    "grapple_hook_kunai_basic",
-                    "grapple_hook_shark_basic",
-                    "grapple_hook_sword_royal",
-                    "grapple_hook_cheese_string",
-                    "grapple_hook_carott_basic",
-                    "grapple_hook_trident_basic_gold",
-                    "grapple_hook_stake_basic_wood",
-                    "grapple_hook_shovel_basic"
-                ]
-            },
-            {
-                "title": "Checkpoints",
-                "items": [
-                    "checkpoint_gab_trophy",
-                    "checkpoint_the_mountain",
-                    "checkpoint_adventure_2024",
-                    "checkpoint_mystical_obelisk_2024",
-                    "checkpoint_aircraft_carrier_2024",
-                    "checkpoint_easter_2024",
-                    "checkpoint_wild_west_2024",
-                    "checkpoint_steampunk_2024",
-                    "checkpoint_fireworks_new_year_2024",
-                    "checkpoint_balloon_new_year_2024",
-                    "checkpoint_presents_2023",
-                    "checkpoint_briefcase_noir_detective",
-                    "checkpoint_grave_halloween_2023",
-                    "checkpoint_chair_folding",
-                    "checkpoint_backpack_school",
-                    "checkpoint_scubatanks",
-                    "checkpoint_gate_angel",
-                    "checkpoint_pentagram_devil",
-                    "checkpoint_fox_inu",
-                    "checkpoint_sir_duckton",
-                    "checkpoint_ufo_basic_beam",
-                    "checkpoint_balloon_heart",
-                    "checkpoint_lantern_chinese",
-                    "checkpoint_snowman_2022",
-                    "checkpoint_northpole_2022",
-                    "checkpoint_pumpkin_basic",
-                    "checkpoint_katana_basic",
-                    "checkpoint_ninjabanner_basic",
-                    "checkpoint_lifebuoyflag_basic",
-                    "checkpoint_scepter_royal",
-                    "checkpoint_cheese_basic",
-                    "checkpoint_egg_basic_dots",
-                    "checkpoint_egg_basic_circles",
-                    "checkpoint_orb_basic_pulsating",
-                    "checkpoint_avatar_old",
-                    "checkpoint_flag_basic"
-                ]
-            },
-            {
-                "title": "Change Main Color",
-                "identifier": "player_color_primary"
-            },
-            {
-                "title": "Change Detail Color",
-                "identifier": "player_color_secondary"
             }
         ]
     }
