@@ -1,9 +1,9 @@
 {
     "user_id": "2cmndb6aqd04eegbagxbo",
-    "user_name": "vestria",
+    "user_name": "w rizz",
     "is_admin": false,
     "is_moderator": false,
-    "is_verifier": true,
+    "is_verifier": false,
     "is_creator": true,
     "user_level_count": 0,
     "active_customizations": {
@@ -16,21 +16,23 @@
         },
         "items": {
             "head/glasses": "head_glasses_new_year_2024",
-            "body/neck": "body_neck_mystical_power_source_player_colors_2024",
-            "checkpoint": "checkpoint_the_mountain",
-            "grapple/hook": "grapple_hook_spear_angel",
+            "body/badge/right": "body_badge_pin_pride_2024",
             "head": "head_space_basic",
-            "head/hat": "head_hat_sunhat_basic_moderator_player_colors"
+            "grapple/hook/left": "grapple_hook_trident_devil",
+            "body/neck": "body_neck_mystical_power_source_player_colors_2024",
+            "body/badge/left": "body_badge_pin_pride_2024",
+            "head/hat": "head_hat_sunhat_basic_moderator_player_colors",
+            "body/backpack": "body_backpack_original",
+            "grapple/hook": "grapple_hook_trident_devil",
+            "checkpoint": "checkpoint_the_mountain",
+            "grapple/hook/right": "grapple_hook_spear_angel"
         },
         "player_color_primary": {
             "color": [
+                0.033333342522382736,
                 0,
-                0,
-                1
+                0.1666666716337204
             ]
         }
-    },
-    "moderation_info": {
-        "type": "ban"
     }
 }
