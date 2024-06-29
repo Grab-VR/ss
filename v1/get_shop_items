@@ -218,7 +218,7 @@
         "preview_rotation": [
             180,
             0,
-            0 
+            0
         ]
     },
     "head_glasses_hmd_meta_basic": {
@@ -2815,22 +2815,7 @@
             180,
             0,
             0
-        ],
-        "attachment_point_overrides": {
-            "default": {
-                "position": [
-                    0,
-                    -0.309303,
-                    -0.093
-                ],
-                "rotation": [
-                    180,
-                    88.7,
-                    0
-                ],
-                "scale": 1.3
-            }
-        }
+        ]
     },
     "body_neck_mystical_power_source_player_colors_2024": {
         "title": "Power Source",
@@ -2870,22 +2855,7 @@
             180,
             0,
             0
-        ],
-        "attachment_point_overrides": {
-            "default": {
-                "position": [
-                    0,
-                    -0.309303,
-                    -0.09
-                ],
-                "rotation": [
-                    180,
-                    88.7,
-                    0
-                ],
-                "scale": 1.3
-            }
-        }
+        ]
     },
     "grapple_hook_mystical_2024": {
         "title": "Mystical Blade Grapple",
@@ -3691,10 +3661,11 @@
     "checkpoint_starter_2024_sign": {
         "title": "Inspirational Sign Checkpoint",
         "type": "checkpoint",
+        "class": "inspirationalsign_2024",
         "file": "cosmetics/checkpoint/2024_starter_sign",
         "materials": [
             {
-                "type": "default",
+                "type": "default_primary_color",
                 "specularColor": [
                     0.05,
                     0.05,
@@ -3703,7 +3674,7 @@
                 ]
             },
             {
-                "type": "default_primary_color",
+                "type": "default",
                 "specularColor": [
                     0.1,
                     0.1,
@@ -3878,10 +3849,11 @@
     "body_backpack_early_adopter_2024": {
         "title": "Hero Jetpack",
         "type": "body/backpack",
+        "class": "jetpack_early_adopter_2024",
         "file": "cosmetics/body/backpack/2024_early_adopter_jetpack",
         "materials": [
             {
-                "type": "default_secondary_color",
+                "type": "default_primary_color",
                 "specularColor": [
                     0.1,
                     0.1,
@@ -4074,6 +4046,7 @@
     "checkpoint_rotation_2024_flower": {
         "title": "Flower Checkpoint",
         "type": "checkpoint",
+        "class": "flower_2024",
         "file": "cosmetics/checkpoint/2024_daily_flower",
         "materials": [
             {
@@ -4229,7 +4202,13 @@
                 ]
             },
             {
-                "type": "default_secondary_color_visor",
+                "type": "default_color_visor",
+                "diffuseColor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
                 "specularColor": [
                     0.1,
                     0.1,
@@ -4324,7 +4303,7 @@
             }
         ],
         "preview_rotation": [
-            0,
+            180,
             0,
             0
         ]
@@ -4420,6 +4399,7 @@
     "checkpoint_rotation_2024_ducky": {
         "title": "Ducky Checkpoint",
         "type": "checkpoint",
+        "class": "ducky_2024",
         "file": "cosmetics/checkpoint/2024_daily_ducky",
         "materials": [
             {
@@ -4471,6 +4451,7 @@
     "body_backpack_rotation_2024_jetpack": {
         "title": "Jetpack",
         "type": "body/backpack",
+        "class": "jetpack_rotation_2024",
         "file": "cosmetics/body/backpack/2024_daily_jetpack",
         "materials": [
             "default",
@@ -4596,6 +4577,7 @@
     "checkpoint_rotation_2024_portal": {
         "title": "Portal Checkpoint",
         "type": "checkpoint",
+        "class": "portal_2024",
         "file": "cosmetics/checkpoint/2024_daily_portal",
         "materials": [
             {
@@ -4605,6 +4587,24 @@
                     0.05,
                     0.05,
                     2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
                 ]
             },
             {
@@ -4689,6 +4689,7 @@
     "checkpoint_rotation_2024_toilet": {
         "title": "Toilet Checkpoint",
         "type": "checkpoint",
+        "class": "toilet_2024",
         "file": "cosmetics/checkpoint/2024_daily_toilet",
         "materials": [
             {
@@ -4813,7 +4814,25 @@
                     0.1,
                     0.1,
                     0.1,
-                    4
+                    8
+                ]
+            },
+            {
+                "type": "default_alpha",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
                 ]
             }
         ],
@@ -4883,7 +4902,7 @@
             }
         ],
         "preview_rotation": [
-            0,
+            180,
             0,
             0
         ]
@@ -5337,6 +5356,64 @@
             270,
             0,
             90
+        ]
+    },
+    "body_neck_2024_content_creator": {
+        "title": "Content Creator Badge",
+        "type": "body/neck",
+        "attachment_point": "chest",
+        "file": "cosmetics/body/badge/2024_content_creator",
+        "materials": [
+            "default",
+            "default",
+            "default"
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "body_badge_2024_content_creator": {
+        "title": "Content Creator Badge",
+        "type": "body/badge",
+        "file": "cosmetics/body/badge/2024_content_creator",
+        "materials": [
+            "default",
+            "default",
+            "default"
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "body_neck_2024_discord": {
+        "title": "Community Neck Item",
+        "type": "body/neck",
+        "attachment_point": "chest",
+        "file": "cosmetics/body/badge/2024_discord",
+        "materials": [
+            "default"
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "body_badge_2024_discord": {
+        "title": "Community Badge",
+        "type": "body/badge",
+        "file": "cosmetics/body/badge/2024_discord",
+        "materials": [
+            "default"
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
         ]
     }
 }
