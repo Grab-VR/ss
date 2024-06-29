@@ -29,6 +29,7 @@
             "checkpoint_summer_2024"
         ],
         "active": true
+        "date_end": 1722492000
     },
     "pack_adventure_2024": {
         "title": "Adventure Pack",
@@ -40,7 +41,8 @@
             "grapple_hook_adventure_2024",
             "checkpoint_adventure_2024"
         ],
-        "active": true
+        "active": true,
+        "date_end": 1719799200
     },
     "pack_pride_2024": {
         "title": "Pride Pin",
@@ -69,7 +71,7 @@
         "items": [
             "body_neck_gab_1_medal"
         ],
-        "active": true
+        "active": false
     },
     "pack_mystic_2024": {
         "title": "Mystical Pack",
