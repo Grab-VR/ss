@@ -3,7 +3,7 @@
         "title": "100 Coins",
         "type": "currency_100",
         "file": "cosmetics/currency/currency_100",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -39,7 +39,7 @@
         "title": "500 Coins",
         "type": "currency_500",
         "file": "cosmetics/currency/currency_500",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -75,7 +75,7 @@
         "title": "1000 Coins",
         "type": "currency_1000",
         "file": "cosmetics/currency/currency_1000",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -111,7 +111,7 @@
         "title": "2100 Coins",
         "type": "currency_2100",
         "file": "cosmetics/currency/currency_2100",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -147,7 +147,7 @@
         "title": "5500 Coins",
         "type": "currency_5500",
         "file": "cosmetics/currency/currency_5500",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -183,7 +183,7 @@
         "title": "Admin Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/cowboyhat_basic_dev",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -197,7 +197,7 @@
         "title": "Moderator Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/sunhat_basic_moderator",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -205,13 +205,23 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_early_adopter_2024": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ],
+                "scale": 1.1
+            }
+        }
     },
     "head_hat_sunhat_basic_moderator_player_colors": {
         "title": "Moderator Hat Colors",
         "type": "head/hat",
         "file": "cosmetics/head/hat/sunhat_basic_moderator",
-        "materials_v2": [
+        "materials": [
             "default_secondary_color",
             "default_primary_color"
         ],
@@ -219,13 +229,23 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_early_adopter_2024": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ],
+                "scale": 1.1
+            }
+        }
     },
     "head_glasses_hmd_meta_basic": {
         "title": "VR Headset",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/hmd_meta_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -240,7 +260,7 @@
         "title": "Black Top Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tophat_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -268,7 +288,7 @@
         "title": "Black Top Hat With Purple",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tophat_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -296,7 +316,7 @@
         "title": "Black Top Hat With Red",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tophat_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -324,7 +344,7 @@
         "title": "White Top Hat With Blue",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tophat_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -352,7 +372,7 @@
         "title": "Top Hat With Character Colors",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tophat_basic",
-        "materials_v2": [
+        "materials": [
             "default_secondary_color",
             "default_primary_color"
         ],
@@ -366,7 +386,7 @@
         "title": "Pink Baseball Cap",
         "type": "head/hat",
         "file": "cosmetics/head/hat/baseballcap_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -386,7 +406,7 @@
         "title": "Green Baseball Cap",
         "type": "head/hat",
         "file": "cosmetics/head/hat/baseballcap_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -406,7 +426,7 @@
         "title": "Red Baseball Cap",
         "type": "head/hat",
         "file": "cosmetics/head/hat/baseballcap_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -426,7 +446,7 @@
         "title": "Blue Headband",
         "type": "head/hat",
         "file": "cosmetics/head/hat/headband_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -440,13 +460,31 @@
             135,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.19,
+                    -0.005
+                ],
+                "scale": 0.95
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.3,
+                    -0.01
+                ],
+                "scale": 0.98
+            }
+        }
     },
     "head_hat_headband_basic_red": {
         "title": "Red Headband",
         "type": "head/hat",
         "file": "cosmetics/head/hat/headband_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -460,13 +498,23 @@
             135,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.19,
+                    -0.005
+                ],
+                "scale": 0.95
+            }
+        }
     },
     "head_hat_headband_basic_black": {
         "title": "Black Headband",
         "type": "head/hat",
         "file": "cosmetics/head/hat/headband_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -480,13 +528,23 @@
             135,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.19,
+                    -0.005
+                ],
+                "scale": 0.95
+            }
+        }
     },
     "grapple_hook_trident_basic_gold": {
         "title": "Trident",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/trident_basic_gold",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -501,7 +559,7 @@
         "title": "Wooden Stake",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/stake_basic_wood",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -516,7 +574,7 @@
         "title": "Shovel",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/shovel_basic",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -531,7 +589,7 @@
         "title": "Pulsating Orb",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/orb_basic_pulsating",
-        "materials_v2": [
+        "materials": [
             "orb_pulsating"
         ],
         "preview_rotation": [
@@ -544,7 +602,7 @@
         "title": "Mini Me",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/avatar_old",
-        "materials_v2": [
+        "materials": [
             "default_primary_color",
             "default_secondary_color"
         ],
@@ -558,7 +616,7 @@
         "title": "Flag",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/flag_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default_primary_color"
         ],
@@ -573,7 +631,7 @@
         "type": "hand",
         "class": "static",
         "file": "cosmetics/hand/sphere_basic",
-        "materials_v2": [
+        "materials": [
             "default_secondary_color"
         ],
         "preview_rotation": [
@@ -582,11 +640,41 @@
             0
         ]
     },
+    "body_backpack_original": {
+        "title": "Original Backpack",
+        "type": "body/backpack",
+        "file": "cosmetics/body/backpack/early_access",
+        "materials": [
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
     "head_hat_bunny_ears_brown": {
         "title": "Bunny Ears Brown",
         "type": "head/hat",
         "file": "cosmetics/head/hat/bunnyears_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -613,7 +701,15 @@
             "head_pilot_2024": {
                 "position": [
                     0,
-                    0.02,
+                    0.190766,
+                    0
+                ],
+                "scale": 0.9
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.36,
                     0
                 ],
                 "scale": 0.9
@@ -624,7 +720,7 @@
         "title": "Bunny Ears Black",
         "type": "head/hat",
         "file": "cosmetics/head/hat/bunnyears_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -651,7 +747,15 @@
             "head_pilot_2024": {
                 "position": [
                     0,
-                    0.02,
+                    0.190766,
+                    0
+                ],
+                "scale": 0.9
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.36,
                     0
                 ],
                 "scale": 0.9
@@ -662,7 +766,7 @@
         "title": "Bunny Ears White",
         "type": "head/hat",
         "file": "cosmetics/head/hat/bunnyears_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_color",
                 "diffuseColor": [
@@ -689,7 +793,15 @@
             "head_pilot_2024": {
                 "position": [
                     0,
-                    0.02,
+                    0.190766,
+                    0
+                ],
+                "scale": 0.9
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.36,
                     0
                 ],
                 "scale": 0.9
@@ -700,7 +812,7 @@
         "title": "Carrot",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/carrot_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -716,7 +828,7 @@
         "title": "Easter Egg 1",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/egg_basic_easter",
-        "materials_v2": [
+        "materials": [
             "easter_egg_1"
         ],
         "preview_rotation": [
@@ -729,7 +841,7 @@
         "title": "Easter Egg 2",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/egg_basic_easter",
-        "materials_v2": [
+        "materials": [
             "easter_egg_2"
         ],
         "preview_rotation": [
@@ -742,7 +854,7 @@
         "title": "Umbrella Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/umbrellahat_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -751,13 +863,31 @@
             135,
             -10,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.23,
+                    0.02
+                ],
+                "scale": 0.93
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0
+                ],
+                "scale": 0.9
+            }
+        }
     },
     "grapple_hook_shark_basic": {
         "title": "Sharky Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/shark_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -774,7 +904,7 @@
         "title": "Lifesaver Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/lifebuoyflag_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default",
@@ -790,7 +920,7 @@
         "title": "Witch Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/witchhat_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -799,13 +929,23 @@
             135,
             -10,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.322,
+                    0
+                ],
+                "scale": 1.08
+            }
+        }
     },
     "grapple_hook_spider_basic": {
         "title": "Frooble",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/spider_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -818,7 +958,7 @@
         "attachment_offset_v2": 0.05,
         "attachment_offset": 0.05,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -835,7 +975,7 @@
         "title": "Jack-o'-lantern Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/pumpkin_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default_neon",
             "default"
@@ -850,7 +990,7 @@
         "title": "Cheese Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/cheese_basic",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -863,7 +1003,7 @@
         "title": "String Cheese",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/cheese_string",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -878,7 +1018,7 @@
         "title": "Cheesepoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/cheese_basic",
-        "materials_v2": [
+        "materials": [
             "default_primary_color",
             "default",
             "default_secondary_color"
@@ -893,7 +1033,7 @@
         "title": "Oni Mask",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/mask_oni_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -908,7 +1048,7 @@
         "title": "Shoge Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/shoge_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -924,7 +1064,7 @@
         "title": "Katana Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/katana_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default_primary_color",
             "default"
@@ -939,7 +1079,7 @@
         "title": "Ninja Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/ninjahat_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -947,13 +1087,23 @@
             135,
             -10,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0
+                ],
+                "scale": 1.07
+            }
+        }
     },
     "grapple_hook_kunai_basic": {
         "title": "Kunai Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/kunai_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -969,7 +1119,7 @@
         "title": "Ninja Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/ninjabanner_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "easter_egg_1"
         ],
@@ -983,7 +1133,7 @@
         "title": "Royal Crown",
         "type": "head/hat",
         "file": "cosmetics/head/hat/crown_royal",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -992,13 +1142,23 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.34,
+                    -0.008
+                ],
+                "scale": 0.9
+            }
+        }
     },
     "grapple_hook_sword_royal": {
         "title": "Royal Sword",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/sword_royal",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1015,7 +1175,7 @@
         "title": "Royal Scepter",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/scepter_royal",
-        "materials_v2": [
+        "materials": [
             "default",
             "default_primary_color",
             "default_secondary_color"
@@ -1030,7 +1190,7 @@
         "title": "Christmas Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/christmas_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1044,7 +1204,7 @@
         "title": "Christmas Tree Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tree_christmas_2022",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1058,7 +1218,7 @@
         "title": "Santa Beard",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/beard_christmas_2022",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1066,13 +1226,23 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.05,
+                    -0.21
+                ],
+                "scale": 1.06
+            }
+        }
     },
     "grapple_hook_candycane": {
         "title": "Candy Cane Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/candycane_2022",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1088,7 +1258,7 @@
         "title": "Bob the Snowman Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/snowman_2022",
-        "materials_v2": [
+        "materials": [
             "default_primary_color",
             "default",
             "default",
@@ -1106,7 +1276,7 @@
         "title": "North Pole Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/northpole_2022",
-        "materials_v2": [
+        "materials": [
             "default_textured"
         ],
         "preview_rotation": [
@@ -1119,7 +1289,7 @@
         "title": "Paper Dragon Mask",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/mask_dragon_paper",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default",
@@ -1135,7 +1305,7 @@
         "title": "Folding Fan Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/foldingfan_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1152,7 +1322,7 @@
         "title": "Lantern Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/lantern_chinese",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1166,7 +1336,7 @@
         "title": "Tophat with a heart",
         "type": "head/hat",
         "file": "cosmetics/head/hat/tophat_heart",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default",
@@ -1176,13 +1346,31 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.2,
+                    0
+                ],
+                "scale": 1.07
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0.005
+                ],
+                "scale": 1.12
+            }
+        }
     },
     "grapple_hook_arrow_heart": {
         "title": "Cupid's arrow",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/arrow_heart",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1195,7 +1383,7 @@
         "attachment_offset_v2": 0.49,
         "attachment_offset": 0.49,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1212,7 +1400,7 @@
         "title": "Heart shaped balloon",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/balloon_heart",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1226,7 +1414,7 @@
         "title": "Space Helmet",
         "type": "head",
         "file": "cosmetics/head/head/space_basic",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -1262,11 +1450,25 @@
             0
         ],
         "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ]
+            },
             "glasses": {
                 "position": [
                     0,
+                    0.008302,
+                    -0.193441
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
                     0,
-                    -0.01
+                    -0.12,
+                    -0.255
                 ]
             }
         }
@@ -1275,7 +1477,7 @@
         "title": "Rocket Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/rocket_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1288,7 +1490,7 @@
         "attachment_offset_v2": 0.33,
         "attachment_offset": 0.33,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1305,7 +1507,7 @@
         "title": "UFO Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/ufo_basic_beam",
-        "materials_v2": [
+        "materials": [
             "default_primary_color",
             "default",
             "default",
@@ -1321,7 +1523,7 @@
         "title": "Bunny Ear Fedora",
         "type": "head/hat",
         "file": "cosmetics/head/hat/fedora_easter_2023",
-        "materials_v2": [
+        "materials": [
             "default_secondary_color",
             "default",
             "default"
@@ -1330,13 +1532,23 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0
+                ],
+                "scale": 1.07
+            }
+        }
     },
     "grapple_hook_easter_2023": {
         "title": "Bunny Pop Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/easter_2023",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1349,7 +1561,7 @@
         "attachment_offset_v2": 0.26,
         "attachment_offset": 0.26,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1366,7 +1578,7 @@
         "title": "Sir Duckton",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/sir_duckton",
-        "materials_v2": [
+        "materials": [
             "default_primary_color",
             "default",
             "default",
@@ -1382,7 +1594,7 @@
         "title": "Cat Ears",
         "type": "head/hat",
         "file": "cosmetics/head/hat/catears_piercing",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1397,7 +1609,7 @@
         "title": "Rizzler",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/fish_rizzler",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1410,7 +1622,7 @@
         "attachment_offset_v2": 0.35,
         "attachment_offset": 0.35,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1427,7 +1639,7 @@
         "title": "Inu",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/fox_inu",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1442,7 +1654,7 @@
         "title": "Angel Halo",
         "type": "head/hat",
         "file": "cosmetics/head/hat/halo_angel_basic",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -1455,7 +1667,7 @@
         "title": "Angel Halo With Detail Color",
         "type": "head/hat",
         "file": "cosmetics/head/hat/halo_angel_basic",
-        "materials_v2": [
+        "materials": [
             "default_secondary_color"
         ],
         "preview_rotation": [
@@ -1468,7 +1680,7 @@
         "title": "Devil Horns",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/horns_devil_basic",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -1481,7 +1693,7 @@
         "title": "Angel Spear",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/spear_angel",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1493,7 +1705,7 @@
         "attachment_offset_v2": 0.84,
         "attachment_offset": 0.84,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1510,7 +1722,7 @@
         "title": "Devil Trident",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/trident_devil",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1522,7 +1734,7 @@
         "attachment_offset_v2": 0.877,
         "attachment_offset": 0.877,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1539,7 +1751,7 @@
         "title": "Angel Gate",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/gate_angel",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1553,7 +1765,7 @@
         "title": "Devil Pentagram",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/pentagram_devil",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1567,7 +1779,7 @@
         "title": "Diving Helmet",
         "type": "head",
         "file": "cosmetics/head/head/diver_oldschool",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -1605,7 +1817,7 @@
             "hat": {
                 "position": [
                     0,
-                    0.005,
+                    0.195766,
                     0
                 ],
                 "scale": 1.05
@@ -1613,10 +1825,17 @@
             "glasses": {
                 "position": [
                     0,
-                    0,
-                    -0.05
+                    0.008302,
+                    -0.265
                 ],
                 "scale": 1.02
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.096952,
+                    -0.22
+                ]
             }
         }
     },
@@ -1624,7 +1843,7 @@
         "title": "Kite Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/kite_basic",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -1637,7 +1856,7 @@
         "attachment_offset_v2": 0.158,
         "attachment_offset": 0.158,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1654,7 +1873,7 @@
         "title": "Scuba Tank Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/scubatanks",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -1693,7 +1912,7 @@
         "title": "Nerd Glasses",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/glasses_nerd",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1701,13 +1920,22 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_space_basic": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.21
+                ]
+            }
+        }
     },
     "grapple_hook_pen_marker": {
         "title": "Marker Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/pen_marker",
-        "materials_v2": [
+        "materials": [
             "default",
             "default_primary_color"
         ],
@@ -1719,7 +1947,7 @@
         "attachment_offset_v2": 0.225,
         "attachment_offset": 0.225,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_primary_color"
                 }
@@ -1731,7 +1959,7 @@
         "title": "School Bag Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/backpack_school",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -1762,7 +1990,7 @@
         "title": "Propeller Cap",
         "type": "head/hat",
         "file": "cosmetics/head/hat/baseballcap_propeller",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1770,13 +1998,19 @@
             225,
             0,
             0
-        ]
+        ],
+        "animations": {
+            "idle": {
+                "type": "playerspeed",
+                "min": 0.2
+            }
+        }
     },
     "grapple_hook_hotdog": {
         "title": "Hotdog Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/hotdog",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -1796,7 +2030,7 @@
         "attachment_offset_v2": 0.18,
         "attachment_offset": 0.18,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -1813,7 +2047,7 @@
         "title": "Folding Chair Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/chair_folding",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -1843,7 +2077,7 @@
         "title": "The Mountain Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/the_mountain",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default",
@@ -1859,7 +2093,7 @@
         "title": "Tutorial Builder Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/contest_build_tutorial",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -1892,13 +2126,78 @@
             225,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "default": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_space_basic": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_diver_oldschool": {
+                "position": [
+                    0,
+                    0.02,
+                    0
+                ]
+            },
+            "head_pilot_2024": {
+                "position": [
+                    0,
+                    -0.05,
+                    -0.01
+                ]
+            },
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_early_adopter_2024": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.08,
+                    -0.03
+                ]
+            },
+            "head_rotation_2024_damageddefault": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_rotation_2024_brokendefault": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        }
     },
     "head_hat_hatchet_halloween_2023": {
         "title": "Hatchet",
         "type": "head/hat",
         "file": "cosmetics/head/hat/hatchet_halloween_2023",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1912,7 +2211,7 @@
         "title": "Scythe Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/scythe_halloween_2023",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -1936,7 +2235,7 @@
         "title": "Spooky Gravestone Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/grave_halloween_2023",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -1966,7 +2265,7 @@
         "title": "Fedora",
         "type": "head/hat",
         "file": "cosmetics/head/hat/fedora_noir_detective",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -1974,13 +2273,24 @@
             225,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0
+                ],
+                "scale": 1.07
+            }
+        }
     },
     "head_glasses_cigar_noir_detective": {
         "title": "Cigar",
         "type": "head/glasses",
+        "attachment_point": "mouth",
         "file": "cosmetics/head/glasses/cigar_noir_detective",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -2017,6 +2327,13 @@
                     -0.23,
                     -0.241
                 ]
+            },
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0.05,
+                    -0.135,
+                    -0.225
+                ]
             }
         }
     },
@@ -2024,7 +2341,7 @@
         "title": "Bowtie",
         "type": "body/neck",
         "file": "cosmetics/body/neck/bowtie_noir_detective",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -2038,7 +2355,7 @@
         "title": "Briefcase Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/briefcase_noir_detective",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2068,7 +2385,7 @@
         "title": "Christmas Bells",
         "type": "body/neck",
         "file": "cosmetics/body/neck/bells_2023",
-        "materials_v2": [
+        "materials": [
             "default",
             "default"
         ],
@@ -2082,7 +2399,7 @@
         "title": "Antlers",
         "type": "head/hat",
         "file": "cosmetics/head/hat/antlers_2023",
-        "materials_v2": [
+        "materials": [
             "default"
         ],
         "preview_rotation": [
@@ -2095,7 +2412,7 @@
         "title": "Gingerbread Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/gingerbread_2023",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default",
@@ -2109,7 +2426,7 @@
         "attachment_offset_v2": 0.334,
         "attachment_offset": 0.334,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -2126,7 +2443,7 @@
         "title": "Presents Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/presents_2023",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default",
@@ -2142,7 +2459,7 @@
         "title": "Party Hat 2024",
         "type": "head/hat",
         "file": "cosmetics/head/hat/new_year_2024",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -2157,7 +2474,7 @@
         "title": "2024 Glasses",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/new_year_2024",
-        "materials_v2": [
+        "materials": [
             "default",
             "default",
             "default"
@@ -2173,7 +2490,7 @@
         "type": "checkpoint",
         "class": "fireworks",
         "file": "cosmetics/checkpoint/new_year_fireworks_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -2204,7 +2521,7 @@
         "title": "Balloon 2024 Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/new_year_balloon_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -2227,7 +2544,7 @@
         "title": "Gears of Love",
         "type": "head/hat",
         "file": "cosmetics/head/hat/steampunk_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2260,13 +2577,31 @@
             225,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "default": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ],
+                "scale": 1.05
+            },
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.2,
+                    0
+                ],
+                "scale": 1.05
+            }
+        }
     },
     "grapple_hook_hammer_steampunk": {
         "title": "Hammer Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/hammer_steampunk",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2307,7 +2642,7 @@
         "title": "Mechanical Heart",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/steampunk_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2346,7 +2681,7 @@
         "title": "Cowboy Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/wild_west_2024_cowboyhat",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2376,7 +2711,7 @@
         "title": "Cactus Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/wild_west_2024_cactus",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2408,7 +2743,7 @@
         "title": "Minecart Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/wild_west_2024_minecart",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2447,7 +2782,7 @@
         "title": "Peeppoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/easter_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2486,7 +2821,7 @@
         "title": "Pilot Helmet",
         "type": "head",
         "file": "cosmetics/head/head/fighter_pilot_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -2533,18 +2868,16 @@
             "hat": {
                 "position": [
                     0,
-                    -0.02,
+                    0.170766,
                     0
-                ],
-                "scale": 1
+                ]
             },
             "glasses": {
                 "position": [
                     0,
-                    0,
-                    0
-                ],
-                "scale": 1
+                    0.008302,
+                    -0.203441
+                ]
             }
         }
     },
@@ -2552,7 +2885,7 @@
         "title": "Fighter Jet Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/fighter_jet_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2580,7 +2913,7 @@
         "attachment_offset_v2": 0.46,
         "attachment_offset": 0.46,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -2597,7 +2930,7 @@
         "title": "Aircraft Carrier Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/aircraft_carrier_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2636,7 +2969,7 @@
         "title": "Sir Duckton",
         "type": "head",
         "file": "cosmetics/checkpoint/sir_duckton",
-        "materials_v2": [
+        "materials": [
             "default_primary_color",
             "default",
             "default",
@@ -2651,8 +2984,9 @@
     "body_neck_mystical_power_source_2024": {
         "title": "Power Source",
         "type": "body/neck",
+        "attachment_point": "chest",
         "file": "cosmetics/body/neck/mystical_power_source_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2692,31 +3026,17 @@
             }
         ],
         "preview_rotation": [
+            180,
             0,
-            90,
             0
-        ],
-        "attachment_point_overrides": {
-            "default": {
-                "position": [
-                    0,
-                    -0.309303,
-                    -0.093
-                ],
-                "rotation": [
-                    180,
-                    88.7,
-                    0
-                ],
-                "scale": 1.3
-            }
-        }
+        ]
     },
     "body_neck_mystical_power_source_player_colors_2024": {
         "title": "Power Source",
         "type": "body/neck",
+        "attachment_point": "chest",
         "file": "cosmetics/body/neck/mystical_power_source_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2746,31 +3066,16 @@
             }
         ],
         "preview_rotation": [
+            180,
             0,
-            90,
             0
-        ],
-        "attachment_point_overrides": {
-            "default": {
-                "position": [
-                    0,
-                    -0.309303,
-                    -0.09
-                ],
-                "rotation": [
-                    180,
-                    88.7,
-                    0
-                ],
-                "scale": 1.3
-            }
-        }
+        ]
     },
     "grapple_hook_mystical_2024": {
         "title": "Mystical Blade Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/mystical_blade_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2789,7 +3094,7 @@
         "attachment_offset_v2": 0.2,
         "attachment_offset": 0.2,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -2812,7 +3117,7 @@
         "title": "Obelisk Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/mystical_obelisk_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2832,8 +3137,9 @@
     "body_neck_gab_1_medal": {
         "title": "GAB 1",
         "type": "body/neck",
+        "attachment_point": "chest",
         "file": "cosmetics/body/neck/medal_gab_1",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2886,18 +3192,18 @@
             0
         ],
         "attachment_point_overrides": {
-            "default": {
+            "body_rotation_2024_monkey": {
                 "position": [
-                    0.004185,
-                    -0.310104,
-                    -0.128349
+                    0,
+                    -0.2,
+                    -0.12
                 ],
                 "rotation": [
                     0,
                     0,
                     0
                 ],
-                "scale": 1
+                "scale": 0.9
             }
         }
     },
@@ -2905,7 +3211,7 @@
         "title": "GAB",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/trophy_gab",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -2969,10 +3275,11 @@
         ]
     },
     "body_neck_pin_pride_2024": {
-        "title": "Pride Pin",
+        "title": "Pride Neck Item",
         "type": "body/neck",
-        "file": "cosmetics/body/neck/pin_pride_2024",
-        "materials_v2": [
+        "attachment_point": "chest",
+        "file": "cosmetics/body/badge/pin_pride_2024",
+        "materials": [
             "default",
             "default",
             "default",
@@ -2984,28 +3291,31 @@
             0,
             0,
             0
+        ]
+    },
+    "body_badge_pin_pride_2024": {
+        "title": "Pride Badge",
+        "type": "body/badge",
+        "file": "cosmetics/body/badge/pin_pride_2024",
+        "materials": [
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default"
         ],
-        "attachment_point_overrides": {
-            "default": {
-                "position": [
-                    -0.134673,
-                    -0.267122,
-                    -0.088314
-                ],
-                "rotation": [
-                    15.4997,
-                    -1.23764,
-                    0
-                ],
-                "scale": 1
-            }
-        }
+        "preview_rotation": [
+            0,
+            0,
+            0
+        ]
     },
     "head_glasses_adventure_2024": {
         "title": "Adventurer Glasses",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/glasses_adventure_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -3052,24 +3362,24 @@
             "head_pilot_2024": {
                 "position": [
                     0,
-                    -0.05,
-                    -0.03
+                    -0.041698,
+                    -0.233441
                 ],
                 "scale": 0.9
             },
             "head_diver_oldschool": {
                 "position": [
                     0,
-                    -0.01,
-                    -0.1
+                    -0.001698,
+                    -0.253441
                 ],
                 "scale": 0.7
             },
             "head_space_basic": {
                 "position": [
                     0,
-                    -0.01,
-                    -0.03
+                    -0.001698,
+                    -0.223441
                 ],
                 "scale": 1
             }
@@ -3079,7 +3389,7 @@
         "title": "Iron Grapple",
         "type": "grapple/hook",
         "file": "cosmetics/grapple/hook/adventure_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -3097,7 +3407,7 @@
         ],
         "attachment_offset_v2": 0.362628,
         "rope": {
-            "materials_v2": [
+            "materials": [
                 {
                     "type": "default_color",
                     "diffuseColor": [
@@ -3120,7 +3430,7 @@
         "title": "Tent Checkpoint",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/adventure_2024",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -3162,7 +3472,7 @@
         "title": "Soda Hat",
         "type": "head/hat",
         "file": "cosmetics/head/hat/2024_summer_pack",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -3216,6 +3526,13 @@
                     0.190766,
                     0
                 ]
+            },
+            "head_early_adopter_2024": {
+                "position": [
+                    0,
+                    0.190766,
+                    0.03
+                ]
             }
         }
     },
@@ -3223,7 +3540,7 @@
         "title": "Snorkel Set",
         "type": "head/glasses",
         "file": "cosmetics/head/glasses/2024_summer_pack",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default",
                 "specularColor": [
@@ -3303,7 +3620,7 @@
         "title": "Beach Umbrella",
         "type": "checkpoint",
         "file": "cosmetics/checkpoint/2024_summer_pack",
-        "materials_v2": [
+        "materials": [
             {
                 "type": "default_primary_color",
                 "specularColor": [
@@ -3341,12 +3658,491 @@
             0
         ]
     },
-    "body_neck_2024_discord": {
-        "title": "Community Badge",
-        "type": "body/neck",
-        "file": "cosmetics/body/neck/2024_discord",
+    "head_hat_starter_2024_tophat_black": {
+        "title": "Top Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_tophat",
         "materials": [
-            "default"
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            200,
+            0,
+            0
+        ]
+    },
+    "head_hat_starter_2024_tophat_white": {
+        "title": "Top Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_tophat",
+        "materials": [
+            {
+                "type": "default_color",
+                "diffuseColor": [
+                    2,
+                    2,
+                    2
+                ],
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            200,
+            0,
+            0
+        ]
+    },
+    "head_hat_starter_2024_tophat_player": {
+        "title": "Top Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_tophat",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            200,
+            0,
+            0
+        ]
+    },
+    "head_hat_starter_2024_bucket": {
+        "title": "Bucket Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_bucket",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_hat_starter_2024_headphones": {
+        "title": "Headphones",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_headphones",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ]
+    },
+    "grapple_hook_starter_2024_boxing": {
+        "title": "Boxing Glove Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/2024_starter_boxing",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": [
+            0,
+            0.02,
+            0.26
+        ],
+        "rope": {
+            "thickness": 1
+        }
+    },
+    "grapple_hook_starter_2024_arrow": {
+        "title": "Arrow Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/2024_starter_arrow",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": 0.362951,
+        "rope": {
+            "thickness": 0.25
+        }
+    },
+    "checkpoint_starter_2024_flag": {
+        "title": "Flag Checkpoint",
+        "type": "checkpoint",
+        "file": "cosmetics/checkpoint/2024_starter_flag",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "checkpoint_starter_2024_sign": {
+        "title": "Inspirational Sign Checkpoint",
+        "type": "checkpoint",
+        "class": "inspirationalsign_2024",
+        "file": "cosmetics/checkpoint/2024_starter_sign",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "head_early_adopter_2024": {
+        "title": "Hero Helmet",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_early_adopter",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color_visor",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.4,
+                    0.2,
+                    0.2,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.194,
+                    0.01
+                ]
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.203441
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.192385,
+                    -0.291841
+                ]
+            }
+        }
+    },
+    "body_early_adopter_2024": {
+        "title": "Hero Body",
+        "type": "body",
+        "file": "cosmetics/body/body/2024_early_adopter",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.4,
+                    0.2,
+                    0.2,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "backpack": {
+                "position": [
+                    0,
+                    -0.311955,
+                    0.278574
+                ]
+            },
+            "neck": {
+                "position": [
+                    0,
+                    -0.02,
+                    -0.01
+                ]
+            },
+            "neck/chest": {
+                "position": [
+                    0,
+                    -0.300416,
+                    -0.124705
+                ]
+            },
+            "badge/left": {
+                "position": [
+                    -0.134673,
+                    -0.267122,
+                    -0.08
+                ],
+                "rotation": [
+                    15.4997,
+                    10,
+                    0
+                ]
+            },
+            "badge/right": {
+                "position": [
+                    0.134673,
+                    -0.267122,
+                    -0.08
+                ],
+                "rotation": [
+                    -15.4997,
+                    10,
+                    0
+                ]
+            }
+        }
+    },
+    "body_backpack_early_adopter_2024": {
+        "title": "Hero Jetpack",
+        "type": "body/backpack",
+        "class": "jetpack_early_adopter_2024",
+        "file": "cosmetics/body/backpack/2024_early_adopter_jetpack",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_badge_release_day_2024": {
+        "title": "Release Day Badge",
+        "type": "body/badge",
+        "file": "cosmetics/body/badge/2024_release_day",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            },
+            {
+                "type": "default_textured",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_glasses_rotation_2024_mustache_1": {
+        "title": "Curly Mustache",
+        "type": "head/glasses",
+        "attachment_point": "mouth",
+        "file": "cosmetics/head/glasses/2024_daily_mustache_1",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
         ],
         "preview_rotation": [
             180,
@@ -3354,25 +4150,1507 @@
             0
         ],
         "attachment_point_overrides": {
-            "default": {
+            "head_pilot_2024": {
+                "position": [
+                    0,
+                    -0.213264,
+                    -0.275901
+                ],
+                "scale": 0.8
+            }
+        }
+    },
+    "head_glasses_rotation_2024_mustache_2": {
+        "title": "Mustache",
+        "type": "head/glasses",
+        "attachment_point": "mouth",
+        "file": "cosmetics/head/glasses/2024_daily_mustache_2",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_pilot_2024": {
+                "position": [
+                    0,
+                    -0.213264,
+                    -0.275901
+                ],
+                "scale": 0.8
+            }
+        }
+    },
+    "head_hat_rotation_2024_octopus": {
+        "title": "Octopus Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_octopus",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ],
+        "animations": {
+            "idle": {
+                "type": "constant"
+            }
+        }
+    },
+    "head_hat_rotation_2024_bucket_real": {
+        "title": "Bucket Hat (real)",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_bucket_real",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ]
+    },
+    "grapple_hook_rotation_2024_pirate": {
+        "title": "Pirate Hook Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/2024_daily_pirate",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": 0.362628,
+        "rope": {
+            "thickness": 1
+        }
+    },
+    "checkpoint_rotation_2024_flower": {
+        "title": "Flower Checkpoint",
+        "type": "checkpoint",
+        "class": "flower_2024",
+        "file": "cosmetics/checkpoint/2024_daily_flower",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ],
+        "scale": 1.5
+    },
+    "body_backpack_rotation_2024_travel": {
+        "title": "Travel Backpack",
+        "type": "body/backpack",
+        "file": "cosmetics/body/backpack/2024_daily_travel",
+        "materials": [
+            "default",
+            "default",
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_rotation_2024_monkey": {
+        "title": "Monkey Body",
+        "type": "body",
+        "file": "cosmetics/body/body/2024_daily_monkey",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "backpack": {
+                "position": [
+                    0,
+                    -0.311955,
+                    0.298574
+                ],
+                "scale": 1.1
+            },
+            "neck": {
+                "position": [
+                    0,
+                    0.05,
+                    -0.03
+                ],
+                "scale": 1.05
+            },
+            "neck/chest": {
+                "position": [
+                    0,
+                    -0.267122,
+                    -0.113
+                ],
+                "scale": 1.05
+            },
+            "badge/left": {
+                "position": [
+                    -0.134673,
+                    -0.2,
+                    -0.09
+                ],
+                "rotation": [
+                    25,
+                    -1.23764,
+                    0
+                ]
+            },
+            "badge/right": {
+                "position": [
+                    0.134673,
+                    -0.2,
+                    -0.09
+                ],
+                "rotation": [
+                    -25,
+                    -1.23764,
+                    0
+                ]
+            }
+        }
+    },
+    "head_rotation_2024_monkey": {
+        "title": "Monkey Head",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_daily_monkey",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default_color_visor",
+                "diffuseColor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ],
+                "scale": 1.07
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.203441
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.06,
+                    -0.225
+                ]
+            }
+        }
+    },
+    "hand_rotation_2024_monkey": {
+        "title": "Monkey Hands",
+        "type": "hand",
+        "class": "default",
+        "file": "cosmetics/hand/2024_daily_monkey",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "body_neck_rotation_2024_goldchain": {
+        "title": "Gold Chain",
+        "type": "body/neck",
+        "file": "cosmetics/body/neck/2024_daily_gold_chain",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_chef": {
+        "title": "Chef Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_chef",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.31,
+                    -0.02
+                ],
+                "scale": 1.1
+            }
+        }
+    },
+    "head_hat_rotation_2024_trafficcone": {
+        "title": "Traffic Cone Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_trafficcone",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_dino": {
+        "title": "Dino Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_dino",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.31,
+                    0.002
+                ],
+                "scale": 0.92
+            }
+        }
+    },
+    "grapple_hook_rotation_2024_drill": {
+        "title": "Drill Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/2024_daily_drill_mk2",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": 0.41,
+        "rope": {
+            "thickness": 1.5
+        }
+    },
+    "checkpoint_rotation_2024_ducky": {
+        "title": "Ducky Checkpoint",
+        "type": "checkpoint",
+        "class": "ducky_2024",
+        "file": "cosmetics/checkpoint/2024_daily_ducky",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_headset_gamer": {
+        "title": "Gamer Headset",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_headset",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ]
+    },
+    "body_backpack_rotation_2024_jetpack": {
+        "title": "Jetpack",
+        "type": "body/backpack",
+        "class": "jetpack_rotation_2024",
+        "file": "cosmetics/body/backpack/2024_daily_jetpack",
+        "materials": [
+            "default",
+            "default",
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "head_rotation_2024_knight": {
+        "title": "Knight Head",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_daily_knight",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default_secondary_color_visor",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.31,
+                    -0.01
+                ],
+                "scale": 1.07
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    -0.03,
+                    -0.224247
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.184006,
+                    -0.225022
+                ]
+            }
+        }
+    },
+    "checkpoint_rotation_2024_moai": {
+        "title": "Moai Checkpoint",
+        "type": "checkpoint",
+        "file": "cosmetics/checkpoint/2024_daily_moai",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "checkpoint_rotation_2024_portal": {
+        "title": "Portal Checkpoint",
+        "type": "checkpoint",
+        "class": "portal_2024",
+        "file": "cosmetics/checkpoint/2024_daily_portal",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_neck_rotation_2024_scarf": {
+        "title": "Scarf",
+        "type": "body/neck",
+        "file": "cosmetics/body/neck/2024_daily_scarf",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            -180,
+            0,
+            0
+        ]
+    },
+    "head_glasses_rotation_2024_skigoggles": {
+        "title": "Ski Goggles",
+        "type": "head/glasses",
+        "file": "cosmetics/head/glasses/2024_daily_skigoggles",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_glasses_rotation_2024_sunglasses": {
+        "title": "Sun Glasses",
+        "type": "head/glasses",
+        "file": "cosmetics/head/glasses/2024_daily_sunglasses",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "checkpoint_rotation_2024_toilet": {
+        "title": "Toilet Checkpoint",
+        "type": "checkpoint",
+        "class": "toilet_2024",
+        "file": "cosmetics/checkpoint/2024_daily_toilet",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_backpack_rotation_2024_solar": {
+        "title": "Solar Backpack",
+        "type": "body/backpack",
+        "file": "cosmetics/body/backpack/2024_daily_solar",
+        "materials": [
+            "default",
+            "default",
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_tophats": {
+        "title": "Top Hat Madness",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_tophats",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0
+                ],
+                "scale": 1.07
+            }
+        }
+    },
+    "head_glasses_rotation_2024_plaguemask": {
+        "title": "Plague Mask",
+        "type": "head/glasses",
+        "file": "cosmetics/head/glasses/2024_daily_plague",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_glasses_rotation_2024_gasmask": {
+        "title": "Gas Mask",
+        "type": "head/glasses",
+        "file": "cosmetics/head/glasses/2024_daily_gasmask",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_bearskin": {
+        "title": "Bearskin",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_bearskin",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default_alpha",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_scientisthair": {
+        "title": "Hair of Science",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_scientisthair",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ]
+    },
+    "body_backpack_rotation_2024_guitar": {
+        "title": "Guitar Backpack",
+        "type": "body/backpack",
+        "file": "cosmetics/body/backpack/2024_daily_guitar",
+        "materials": [
+            "default",
+            "default",
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_neck_rotation_2024_tie": {
+        "title": "Tie",
+        "type": "body/neck",
+        "file": "cosmetics/body/neck/2024_daily_tie",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_hat_rotation_2024_beanie": {
+        "title": "Beanie",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_beanie",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.35,
+                    0
+                ],
+                "scale": 0.9
+            }
+        }
+    },
+    "head_hat_rotation_2024_flowerring": {
+        "title": "Flower Wreath",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_daily_flowerring",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            225,
+            0,
+            0
+        ],
+        "attachment_point_overrides": {
+            "head_rotation_2024_monkey": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ],
+                "scale": 0.9
+            },
+            "head_rotation_2024_knight": {
+                "position": [
+                    0,
+                    0.32,
+                    0
+                ],
+                "scale": 0.85
+            }
+        }
+    },
+    "body_backpack_rotation_2024_angelwings": {
+        "title": "Angel Wings",
+        "type": "body/backpack",
+        "file": "cosmetics/body/backpack/2024_daily_wings",
+        "materials": [
+            "default",
+            "default",
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "animations": {
+            "idle": {
+                "type": "playerspeed",
+                "min": 0.5,
+                "max": 10
+            }
+        }
+    },
+    "checkpoint_rotation_2024_nuclearwaste": {
+        "title": "Nuclear Waste Checkpoint",
+        "type": "checkpoint",
+        "file": "cosmetics/checkpoint/2024_daily_nuclearwaste",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_rotation_2024_damageddefault": {
+        "title": "Damaged Body",
+        "type": "body",
+        "file": "cosmetics/body/body/2024_daily_damaged",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "backpack": {
+                "position": [
+                    0,
+                    -0.311955,
+                    0.278574
+                ]
+            },
+            "neck": {
+                "position": [
+                    0,
+                    -0.01,
+                    -0.01
+                ]
+            },
+            "neck/chest": {
+                "position": [
+                    0,
+                    -0.300416,
+                    -0.124705
+                ]
+            },
+            "badge/left": {
                 "position": [
                     -0.134673,
                     -0.267122,
-                    -0.088314
+                    -0.09
                 ],
                 "rotation": [
                     15.4997,
-                    -1.23764,
+                    10,
                     0
+                ]
+            },
+            "badge/right": {
+                "position": [
+                    0.134673,
+                    -0.267122,
+                    -0.09
                 ],
-                "scale": 1
+                "rotation": [
+                    -15.4997,
+                    10,
+                    0
+                ]
             }
         }
+    },
+    "head_rotation_2024_damageddefault": {
+        "title": "Damaged Helmet",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_daily_damaged",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color_visor",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ]
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.203441
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.192385,
+                    -0.291841
+                ]
+            }
+        }
+    },
+    "body_rotation_2024_brokendefault": {
+        "title": "Cracked Body",
+        "type": "body",
+        "file": "cosmetics/body/body/2024_daily_broken",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "backpack": {
+                "position": [
+                    0,
+                    -0.311955,
+                    0.278574
+                ]
+            },
+            "neck": {
+                "position": [
+                    0,
+                    -0.01,
+                    -0.01
+                ]
+            },
+            "neck/chest": {
+                "position": [
+                    0,
+                    -0.300416,
+                    -0.124705
+                ]
+            },
+            "badge/left": {
+                "position": [
+                    -0.134673,
+                    -0.267122,
+                    -0.075
+                ],
+                "rotation": [
+                    10,
+                    5,
+                    0
+                ]
+            },
+            "badge/right": {
+                "position": [
+                    0.134673,
+                    -0.267122,
+                    -0.09
+                ],
+                "rotation": [
+                    -15.4997,
+                    10,
+                    0
+                ]
+            }
+        }
+    },
+    "head_rotation_2024_brokendefault": {
+        "title": "Cracked Helmet",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_daily_broken",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color_visor",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.190766,
+                    0
+                ]
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.203441
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.192385,
+                    -0.291841
+                ]
+            }
+        }
+    },
+    "hand_rotation_2024_cat": {
+        "title": "Cat Paws",
+        "type": "hand",
+        "class": "default",
+        "file": "cosmetics/hand/2024_daily_cat",
+        "materials": [
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "hand_rotation_2024_crab": {
+        "title": "Crab Claws",
+        "type": "hand",
+        "class": "default",
+        "file": "cosmetics/hand/2024_daily_crab",
+        "materials": [
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            270,
+            0,
+            90
+        ]
     },
     "body_neck_2024_content_creator": {
         "title": "Content Creator Badge",
         "type": "body/neck",
-        "file": "cosmetics/body/neck/2024_content_creator",
+        "attachment_point": "chest",
+        "file": "cosmetics/body/badge/2024_content_creator",
         "materials": [
             "default",
             "default",
@@ -3382,21 +5660,48 @@
             180,
             0,
             0
+        ]
+    },
+    "body_badge_2024_content_creator": {
+        "title": "Content Creator Badge",
+        "type": "body/badge",
+        "file": "cosmetics/body/badge/2024_content_creator",
+        "materials": [
+            "default",
+            "default",
+            "default"
         ],
-        "attachment_point_overrides": {
-            "default": {
-                "position": [
-                    -0.134673,
-                    -0.267122,
-                    -0.088314
-                ],
-                "rotation": [
-                    15.4997,
-                    -1.23764,
-                    0
-                ],
-                "scale": 1
-            }
-        }
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "body_neck_2024_discord": {
+        "title": "Community Neck Item",
+        "type": "body/neck",
+        "attachment_point": "chest",
+        "file": "cosmetics/body/badge/2024_discord",
+        "materials": [
+            "default"
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "body_badge_2024_discord": {
+        "title": "Community Badge",
+        "type": "body/badge",
+        "file": "cosmetics/body/badge/2024_discord",
+        "materials": [
+            "default"
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
     }
 }
