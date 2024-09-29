@@ -1,0 +1,38 @@
+{
+    "user_id": "2cmndb6aqd04eegbagxbo",
+    "user_name": "vestria",
+    "is_admin": false,
+    "is_moderator": false,
+    "is_verifier": false,
+    "is_creator": true,
+    "user_level_count": 3,
+    "active_customizations": {
+        "player_color_primary": {
+            "color": [
+                0,
+                0,
+                1
+            ]
+        },
+        "player_color_secondary": {
+            "color": [
+                0.8333333134651184,
+                0.5000001192092896,
+                0
+            ]
+        },
+        "items": {
+            "checkpoint": "checkpoint_rotation_2024_ducky",
+            "head": "head_early_adopter_2024",
+            "body/neck": "body_neck_rotation_2024_goldchain",
+            "grapple/hook/right": "grapple_hook_trident_devil",
+            "body/backpack": "body_backpack_early_adopter_2024",
+            "body/badge/right": "body_badge_pin_pride_2024",
+            "body": "body_early_adopter_2024",
+            "grapple/hook/left": "grapple_hook_spear_angel",
+            "head/glasses": "head_glasses_new_year_2024",
+            "body/badge/left": "body_badge_2024_discord",
+            "head/hat": "head_hat_sunhat_basic_moderator_player_colors"
+        }
+    }
+}

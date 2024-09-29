@@ -1,0 +1,178 @@
+[
+    {
+        "title": "GRAB Coins",
+        "items": [
+            "currency_5500",
+            "currency_2100",
+            "currency_1000",
+            "currency_500",
+            "currency_100"
+        ],
+        "tag": "section_currency"
+    },
+    {
+        "title": "Shop",
+        "tag": "shop_highlights",
+        "sections": [
+            {
+                "product": "pack_starter_2024"
+            },
+            {
+                "product": "pack_early_adopter_2024"
+            },
+            {
+                "product": "pack_release_day_2024"
+            },
+            {
+                "product": "pack_summer_2024"
+            },
+            {
+                "product": "pack_adventure_2024"
+            },
+            {
+                "product": "pack_pride_2024"
+            },
+            {
+                "product": "pack_mystic_2024"
+            },
+            {
+                "product": "pack_space_1"
+            },
+            {
+                "product": "pack_cheese_1"
+            },
+            {
+                "product": "pack_devilvsangel_1"
+            },
+            {
+                "product": "pack_pilot_2024"
+            },
+            {
+                "product": "pack_animals_1"
+            },
+            {
+                "product": "pack_noir_detective_2023"
+            },
+            {
+                "product": "pack_misc_1"
+            },
+            {
+                "product": "pack_ninja_1"
+            },
+            {
+                "product": "pack_samurai_1"
+            },
+            {
+                "product": "pack_royal_1"
+            }
+        ]
+    },
+    {
+        "title": "Shop",
+        "tag": "shop_packs",
+        "sections": [
+            {
+                "product": "pack_starter_2024"
+            },
+            {
+                "product": "pack_early_adopter_2024"
+            },
+            {
+                "product": "pack_release_day_2024"
+            },
+            {
+                "product": "pack_summer_2024"
+            },
+            {
+                "product": "pack_adventure_2024"
+            },
+            {
+                "product": "pack_pride_2024"
+            },
+            {
+                "product": "pack_mystic_2024"
+            },
+            {
+                "product": "pack_pilot_2024"
+            },
+            {
+                "product": "pack_easter_2024"
+            },
+            {
+                "product": "pack_wild_west_2024"
+            },
+            {
+                "product": "pack_steampunk_2024"
+            },
+            {
+                "product": "pack_new_year_2024"
+            },
+            {
+                "product": "pack_christmas_2023"
+            },
+            {
+                "product": "pack_christmas_mini_2023"
+            },
+            {
+                "product": "pack_noir_detective_2023"
+            },
+            {
+                "product": "pack_halloween_2023"
+            },
+            {
+                "product": "pack_misc_1"
+            },
+            {
+                "product": "pack_backtoschool_2023"
+            },
+            {
+                "product": "pack_summer_2023"
+            },
+            {
+                "product": "pack_devilvsangel_1"
+            },
+            {
+                "product": "pack_animals_1"
+            },
+            {
+                "product": "pack_easter_2023"
+            },
+            {
+                "product": "pack_space_1"
+            },
+            {
+                "product": "pack_valentines_day_2023"
+            },
+            {
+                "product": "pack_chinese_new_year_2023"
+            },
+            {
+                "product": "pack_christmas_mini_2022"
+            },
+            {
+                "product": "pack_christmas_2022"
+            },
+            {
+                "product": "pack_halloween_2022"
+            },
+            {
+                "product": "pack_ninja_1"
+            },
+            {
+                "product": "pack_samurai_1"
+            },
+            {
+                "product": "pack_summer_2022"
+            },
+            {
+                "product": "pack_cheese_1"
+            },
+            {
+                "product": "pack_royal_1"
+            },
+            {
+                "product": "pack_easter_2022"
+            }
+        ]
+    }
+]
