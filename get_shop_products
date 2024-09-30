@@ -1,4 +1,17 @@
 {
+    "pack_mossy_2024": {
+        "title": "Mossy Pack",
+        "description": "You took a nap under a tree... Oh no! What happened to you?",
+        "type": "durable",
+        "price_currency": 2000,
+        "items": [
+            "head_mossy_2024",
+            "body_mossy_2024",
+            "body_backpack_mossy_2024"
+        ],
+        "active": true,
+        "date_end": 1727762400
+    },
     "pack_early_adopter_2024": {
         "title": "Early Adopter Pack",
         "description": "Be a super hero! Only available for a limited time!",
@@ -8,9 +21,7 @@
             "head_early_adopter_2024",
             "body_early_adopter_2024",
             "body_backpack_early_adopter_2024"
-        ],
-        "active": true,
-        "date_end": 1724346000
+        ]
     },
     "pack_release_day_2024": {
         "title": "Release Day Badge",
@@ -19,9 +30,7 @@
         "price_currency": 0,
         "items": [
             "body_badge_release_day_2024"
-        ],
-        "active": true,
-        "date_end": 1723222800
+        ]
     },
     "pack_starter_2024": {
         "title": "Starter Pack",
@@ -34,12 +43,18 @@
             "head_hat_starter_2024_tophat_black",
             "head_hat_starter_2024_tophat_white",
             "head_hat_starter_2024_tophat_player",
+            "head_hat_starter_2024_tophat_player_inverse",
             "head_hat_starter_2024_bucket",
+            "head_hat_starter_2024_bucket_player",
+            "head_hat_starter_2024_bucket_player_inverse",
             "head_hat_starter_2024_headphones",
             "grapple_hook_starter_2024_boxing",
+            "grapple_hook_starter_2024_boxing_player",
+            "grapple_hook_starter_2024_boxing_player_inverse",
             "grapple_hook_starter_2024_arrow",
             "checkpoint_starter_2024_flag",
-            "checkpoint_starter_2024_sign"
+            "checkpoint_starter_2024_sign",
+            "body_backpack_original"
         ],
         "active": true
     },
@@ -52,9 +67,7 @@
             "head_hat_summer_2024",
             "head_glasses_summer_2024",
             "checkpoint_summer_2024"
-        ],
-        "active": true,
-        "date_end": 1722492000
+        ]
     },
     "pack_adventure_2024": {
         "title": "Adventure Pack",
@@ -487,7 +500,6 @@
             "hand_sphere_basic",
             "body_backpack_original"
         ],
-        "active": true,
         "overrides": [
             "pack_early_access_1"
         ],
@@ -967,6 +979,15 @@
         "type": "durable",
         "items": [
             "body_badge_2024_content_creator",
+            "head_skull_basic_2024",
+            "head_pumpkin_2024",
+            "body_halloween_2024",
+            "hand_halloween_2024",
+            "checkpoint_halloween_kettle_2024",
+            "body_backpack_halloween_coffin_2024",
+            "head_mossy_2024",
+            "body_mossy_2024",
+            "body_backpack_mossy_2024",
             "head_early_adopter_2024",
             "body_early_adopter_2024",
             "body_backpack_early_adopter_2024",
@@ -974,9 +995,14 @@
             "head_hat_starter_2024_tophat_black",
             "head_hat_starter_2024_tophat_white",
             "head_hat_starter_2024_tophat_player",
+            "head_hat_starter_2024_tophat_player_inverse",
             "head_hat_starter_2024_bucket",
+            "head_hat_starter_2024_bucket_player",
+            "head_hat_starter_2024_bucket_player_inverse",
             "head_hat_starter_2024_headphones",
             "grapple_hook_starter_2024_boxing",
+            "grapple_hook_starter_2024_boxing_player",
+            "grapple_hook_starter_2024_boxing_player_inverse",
             "grapple_hook_starter_2024_arrow",
             "checkpoint_starter_2024_flag",
             "checkpoint_starter_2024_sign",
