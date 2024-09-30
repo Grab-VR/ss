@@ -18,34 +18,22 @@
                 "product": "pack_starter_2024"
             },
             {
-                "product": "pack_early_adopter_2024"
-            },
-            {
-                "product": "pack_release_day_2024"
-            },
-            {
-                "product": "pack_summer_2024"
-            },
-            {
-                "product": "pack_adventure_2024"
-            },
-            {
-                "product": "pack_pride_2024"
-            },
-            {
-                "product": "pack_mystic_2024"
+                "product": "pack_mossy_2024"
             },
             {
                 "product": "pack_space_1"
-            },
-            {
-                "product": "pack_cheese_1"
             },
             {
                 "product": "pack_devilvsangel_1"
             },
             {
                 "product": "pack_pilot_2024"
+            },
+            {
+                "product": "pack_cheese_1"
+            },
+            {
+                "product": "pack_royal_1"
             },
             {
                 "product": "pack_animals_1"
@@ -61,9 +49,6 @@
             },
             {
                 "product": "pack_samurai_1"
-            },
-            {
-                "product": "pack_royal_1"
             }
         ]
     },
@@ -75,10 +60,16 @@
                 "product": "pack_starter_2024"
             },
             {
+                "product": "pack_mossy_2024"
+            },
+            {
                 "product": "pack_early_adopter_2024"
             },
             {
                 "product": "pack_release_day_2024"
+            },
+            {
+                "product": "pack_early_access_2"
             },
             {
                 "product": "pack_summer_2024"
