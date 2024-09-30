@@ -1687,7 +1687,16 @@
             180,
             0,
             0
-        ]
+        ],
+        "attachment_point_overrides": {
+            "head_pumpkin_2024": {
+                "position": [
+                    0,
+                    -0.02,
+                    -0.29
+                ]
+            }
+        }
     },
     "grapple_hook_spear_angel": {
         "title": "Angel Spear",
@@ -2190,6 +2199,27 @@
                     0,
                     0
                 ]
+            },
+            "head_mossy_2024": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_skull_basic_2024": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "head_pumpkin_2024": {
+                "position": [
+                    0,
+                    0,
+                    0
+                ]
             }
         }
     },
@@ -2333,6 +2363,20 @@
                     0.05,
                     -0.135,
                     -0.225
+                ]
+            },
+            "head_skull_basic_2024": {
+                "position": [
+                    -0.063,
+                    -0.19,
+                    -0.215
+                ]
+            },
+            "head_pumpkin_2024": {
+                "position": [
+                    -0.063,
+                    -0.14,
+                    -0.215
                 ]
             }
         }
@@ -3382,6 +3426,14 @@
                     -0.223441
                 ],
                 "scale": 1
+            },
+            "head_skull_basic_2024": {
+                "position": [
+                    0,
+                    -0.02,
+                    -0.225
+                ],
+                "scale": 1
             }
         }
     },
@@ -3613,6 +3665,14 @@
                     -0.001698,
                     -0.233441
                 ]
+            },
+            "head_skull_basic_2024": {
+                "position": [
+                    0,
+                    0.027,
+                    -0.261
+                ],
+                "scale": 0.94
             }
         }
     },
@@ -3631,16 +3691,13 @@
                 ]
             },
             {
-                "type": "default",
+                "type": "default_secondary_color",
                 "specularColor": [
                     0.1,
                     0.1,
                     0.1,
                     8
                 ]
-            },
-            {
-                "type": "default"
             },
             {
                 "type": "default",
@@ -3753,6 +3810,36 @@
             0
         ]
     },
+    "head_hat_starter_2024_tophat_player_inverse": {
+        "title": "Top Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_tophat",
+        "materials": [
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            200,
+            0,
+            0
+        ]
+    },
     "head_hat_starter_2024_bucket": {
         "title": "Bucket Hat",
         "type": "head/hat",
@@ -3760,6 +3847,48 @@
         "materials": [
             {
                 "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_hat_starter_2024_bucket_player": {
+        "title": "Bucket Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_bucket",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    4
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "head_hat_starter_2024_bucket_player_inverse": {
+        "title": "Bucket Hat",
+        "type": "head/hat",
+        "file": "cosmetics/head/hat/2024_starter_bucket",
+        "materials": [
+            {
+                "type": "default_secondary_color",
                 "specularColor": [
                     0.1,
                     0.1,
@@ -3802,6 +3931,64 @@
         "materials": [
             {
                 "type": "default",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": [
+            0,
+            0.02,
+            0.26
+        ],
+        "rope": {
+            "thickness": 1
+        }
+    },
+    "grapple_hook_starter_2024_boxing_player": {
+        "title": "Boxing Glove Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/2024_starter_boxing",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    32
+                ]
+            }
+        ],
+        "preview_rotation": [
+            0,
+            90,
+            0
+        ],
+        "attachment_offset_v2": [
+            0,
+            0.02,
+            0.26
+        ],
+        "rope": {
+            "thickness": 1
+        }
+    },
+    "grapple_hook_starter_2024_boxing_player_inverse": {
+        "title": "Boxing Glove Grapple",
+        "type": "grapple/hook",
+        "file": "cosmetics/grapple/hook/2024_starter_boxing",
+        "materials": [
+            {
+                "type": "default_secondary_color",
                 "specularColor": [
                     0.5,
                     0.5,
@@ -4124,6 +4311,478 @@
         ],
         "preview_rotation": [
             180,
+            0,
+            0
+        ]
+    },
+    "head_mossy_2024": {
+        "title": "Mossy Helmet",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_mossy",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color_visor",
+                "specularColor": [
+                    0.4,
+                    0.2,
+                    0.2,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.194,
+                    0.01
+                ]
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.203441
+                ]
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.192385,
+                    -0.291841
+                ]
+            }
+        }
+    },
+    "body_mossy_2024": {
+        "title": "Mossy Body",
+        "type": "body",
+        "file": "cosmetics/body/body/2024_mossy",
+        "materials": [
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.4,
+                    0.2,
+                    0.2,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "backpack": {
+                "position": [
+                    0,
+                    -0.311955,
+                    0.278574
+                ]
+            },
+            "neck": {
+                "position": [
+                    0,
+                    -0.01,
+                    -0.01
+                ]
+            },
+            "neck/chest": {
+                "position": [
+                    0,
+                    -0.300416,
+                    -0.124705
+                ]
+            },
+            "badge/left": {
+                "position": [
+                    -0.134673,
+                    -0.267122,
+                    -0.09
+                ],
+                "rotation": [
+                    15.4997,
+                    10,
+                    0
+                ]
+            },
+            "badge/right": {
+                "position": [
+                    0.134673,
+                    -0.267122,
+                    -0.09
+                ],
+                "rotation": [
+                    -15.4997,
+                    10,
+                    0
+                ]
+            }
+        }
+    },
+    "body_backpack_mossy_2024": {
+        "title": "Mossy Jetpack",
+        "type": "body/backpack",
+        "class": "jetpack_mossy_2024",
+        "file": "cosmetics/body/backpack/2024_mossy_jetpack",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "head_skull_basic_2024": {
+        "title": "Skull",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_halloween_skull_basic",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.21,
+                    0.02
+                ],
+                "scale": 1
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    -0.02,
+                    -0.225
+                ],
+                "scale": 0.94
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.12,
+                    -0.2475
+                ],
+                "scale": 0.9
+            }
+        }
+    },
+    "head_pumpkin_2024": {
+        "title": "Skull",
+        "type": "head",
+        "file": "cosmetics/head/head/2024_halloween_pumpkin",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color_visor",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "hat": {
+                "position": [
+                    0,
+                    0.185,
+                    0
+                ],
+                "scale": 1.25
+            },
+            "glasses": {
+                "position": [
+                    0,
+                    0.008302,
+                    -0.29
+                ],
+                "scale": 1.2
+            },
+            "glasses/mouth": {
+                "position": [
+                    0,
+                    -0.09,
+                    -0.291841
+                ]
+            }
+        }
+    },
+    "body_halloween_2024": {
+        "title": "Rags Body",
+        "type": "body",
+        "file": "cosmetics/body/body/2024_halloween",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.01,
+                    0.01,
+                    0.01,
+                    64
+                ]
+            },
+            {
+                "type": "default_secondary_color",
+                "specularColor": [
+                    0.01,
+                    0.01,
+                    0.01,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ],
+        "attachment_points": {
+            "backpack": {
+                "position": [
+                    0,
+                    -0.311955,
+                    0.278574
+                ]
+            },
+            "neck": {
+                "position": [
+                    0,
+                    0,
+                    -0.02
+                ]
+            },
+            "neck/chest": {
+                "position": [
+                    0,
+                    -0.300416,
+                    -0.137
+                ],
+                "rotation": [
+                    0,
+                    8,
+                    0
+                ]
+            },
+            "badge/left": {
+                "position": [
+                    -0.134673,
+                    -0.267122,
+                    -0.09
+                ],
+                "rotation": [
+                    40.4997,
+                    10,
+                    0
+                ]
+            },
+            "badge/right": {
+                "position": [
+                    0.16,
+                    -0.25,
+                    -0.042
+                ],
+                "rotation": [
+                    -33,
+                    14,
+                    0
+                ]
+            }
+        }
+    },
+    "hand_halloween_2024": {
+        "title": "Zombie Hands",
+        "type": "hand",
+        "class": "default",
+        "file": "cosmetics/hand/2024_halloween",
+        "materials": [
+            {
+                "type": "default_primary_color",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    8
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            180,
+            0,
+            0
+        ]
+    },
+    "checkpoint_halloween_kettle_2024": {
+        "title": "Candy Kettle Checkpoint",
+        "type": "checkpoint",
+        "file": "cosmetics/checkpoint/2024_halloween_kettle",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    2
+                ]
+            },
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    8
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
+            0,
+            0
+        ]
+    },
+    "body_backpack_halloween_coffin_2024": {
+        "title": "Portable Coffin",
+        "type": "body/backpack",
+        "file": "cosmetics/body/backpack/2024_halloween_coffin",
+        "materials": [
+            {
+                "type": "default",
+                "specularColor": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    64
+                ]
+            }
+        ],
+        "preview_rotation": [
+            45,
             0,
             0
         ]
