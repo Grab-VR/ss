@@ -4737,8 +4737,9 @@
         ]
     },
     "checkpoint_halloween_kettle_2024": {
-        "title": "Candy Kettle Checkpoint",
+        "title": "Candy Cauldron Checkpoint",
         "type": "checkpoint",
+        "class": "candykettle_2024",
         "file": "cosmetics/checkpoint/2024_halloween_kettle",
         "materials": [
             {
